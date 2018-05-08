@@ -34,6 +34,7 @@ class DataSet {
             } catch {
                 NSLog("DataSet: failed to load samples")
             }
+            return s
         }
     }
     

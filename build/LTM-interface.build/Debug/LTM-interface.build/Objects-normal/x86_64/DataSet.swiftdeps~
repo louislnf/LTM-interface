@@ -1,11 +1,21 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "DataSet"
 provides-nominal:
+- "13LTM_interface7DataSetC"
 provides-member:
+- ["13LTM_interface7DataSetC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Array"
+- "DataSet"
+- "Sample"
 depends-member:
+- ["13LTM_interface7DataSetC", "Array"]
+- ["13LTM_interface7DataSetC", "Sample"]
+- ["13LTM_interface7DataSetC", "deinit"]
 depends-nominal:
+- "13LTM_interface7DataSetC"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
@@ -35,4 +45,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "839b279e4f1204b10a6532a681023e40"

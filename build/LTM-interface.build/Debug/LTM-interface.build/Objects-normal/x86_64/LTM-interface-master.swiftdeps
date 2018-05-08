@@ -1,11 +1,11 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "94982b7d5ebb96a8d9c469373fbeb96f"
-build_time: [1525769636, 194604000]
+build_time: [1525774038, 387715000]
 inputs:
-  "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/Model/DataSet.swift": !dirty [1525769592, 0]
+  "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/Model/DataSet.swift": [1525773663, 0]
   "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/ViewController.swift": [1525769112, 0]
   "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/Model/MicroExpressionsSet.swift": [1525769077, 0]
-  "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/AppDelegate.swift": [1525703653, 0]
+  "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/AppDelegate.swift": [1525774031, 0]
   "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/Model/MicroExpression.swift": [1525706871, 0]
-  "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/Model/Sample.swift": [9223372036, 854775807]
-  "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/Model/Video.swift": [1525769511, 0]
+  "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/Model/Sample.swift": [1525771804, 0]
+  "/Users/louislenief/Documents/Programmation/LTM-interface/LTM-interface/Model/Video.swift": [1525769684, 0]
