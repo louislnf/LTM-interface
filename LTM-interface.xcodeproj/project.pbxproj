@@ -11,6 +11,11 @@
 		5CA467AC20A093710075680E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467AB20A093710075680E /* ViewController.swift */; };
 		5CA467AE20A093720075680E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA467AD20A093720075680E /* Assets.xcassets */; };
 		5CA467B120A093720075680E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA467AF20A093720075680E /* Main.storyboard */; };
+		5CA467C020A09F010075680E /* MicroExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467BF20A09F010075680E /* MicroExpression.swift */; };
+		5CA467C420A0A2A20075680E /* MicroExpressionsSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467C320A0A2A20075680E /* MicroExpressionsSet.swift */; };
+		5CA467C620A19B5D0075680E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467C520A19B5D0075680E /* Video.swift */; };
+		5CA467C820A19CBF0075680E /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467C720A19CBF0075680E /* DataSet.swift */; };
+		5CA467CA20A19D230075680E /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467C920A19D230075680E /* Sample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		5CA467B020A093720075680E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CA467B220A093720075680E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA467B320A093720075680E /* LTM_interface.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LTM_interface.entitlements; sourceTree = "<group>"; };
+		5CA467BF20A09F010075680E /* MicroExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroExpression.swift; sourceTree = "<group>"; };
+		5CA467C320A0A2A20075680E /* MicroExpressionsSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroExpressionsSet.swift; sourceTree = "<group>"; };
+		5CA467C520A19B5D0075680E /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		5CA467C720A19CBF0075680E /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		5CA467C920A19D230075680E /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 		5CA467A820A093710075680E /* LTM-interface */ = {
 			isa = PBXGroup;
 			children = (
+				5CA467BC20A09EB90075680E /* Model */,
 				5CA467A920A093710075680E /* AppDelegate.swift */,
 				5CA467AB20A093710075680E /* ViewController.swift */,
 				5CA467AD20A093720075680E /* Assets.xcassets */,
@@ -61,6 +72,18 @@
 				5CA467B320A093720075680E /* LTM_interface.entitlements */,
 			);
 			path = "LTM-interface";
+			sourceTree = "<group>";
+		};
+		5CA467BC20A09EB90075680E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CA467C720A19CBF0075680E /* DataSet.swift */,
+				5CA467C920A19D230075680E /* Sample.swift */,
+				5CA467C320A0A2A20075680E /* MicroExpressionsSet.swift */,
+				5CA467C520A19B5D0075680E /* Video.swift */,
+				5CA467BF20A09F010075680E /* MicroExpression.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA467C820A19CBF0075680E /* DataSet.swift in Sources */,
 				5CA467AC20A093710075680E /* ViewController.swift in Sources */,
+				5CA467C420A0A2A20075680E /* MicroExpressionsSet.swift in Sources */,
 				5CA467AA20A093710075680E /* AppDelegate.swift in Sources */,
+				5CA467C020A09F010075680E /* MicroExpression.swift in Sources */,
+				5CA467CA20A19D230075680E /* Sample.swift in Sources */,
+				5CA467C620A19B5D0075680E /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
