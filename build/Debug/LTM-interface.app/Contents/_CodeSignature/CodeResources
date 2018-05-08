@@ -6,19 +6,19 @@
 	<dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		195mb7er8JasN17Mf7gVUTmPMuA=
+		xeMq+qPFb1I+G6qEuIEJAaTwgaM=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		CQEDywXzVlbuWEFDq+AhprjWIk4=
+		Jp4uuo3PkV95FcRZNEhzMPIFPvM=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<data>
-		+dX3nJQh86NkbAnIhcJ10kBL39Q=
+		+4FO24cFb0eQkaxuG77b+5YNLAY=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		LYQKiXkcwiiUnhsqtS/NFWuq1Ys=
+		2lcCwrxlxN30WD/jJ6I26qtcVGA=
 		</data>
 		<key>Resources/libswiftRemoteMirror.dylib</key>
 		<data>
@@ -27,6 +27,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/libswiftAVFoundation.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			QW2Bqd9Uq8vhFIneztgCVY4OlSc=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftAVFoundation" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Louis Lenief (2E76V99N75)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
 		<key>Frameworks/libswiftAppKit.dylib</key>
 		<dict>
 			<key>cdhash</key>
@@ -44,6 +53,15 @@
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Louis Lenief (2E76V99N75)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftCoreAudio.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			g4P40Nk1a8sVPLtFFMGKti5lEC8=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCoreAudio" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Louis Lenief (2E76V99N75)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<dict>
@@ -80,6 +98,15 @@
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Louis Lenief (2E76V99N75)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftCoreMedia.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			/ONKdBlCIG7uazt1bY6esUQDILE=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCoreMedia" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Louis Lenief (2E76V99N75)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
@@ -171,32 +198,41 @@
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftos" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Louis Lenief (2E76V99N75)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
+		<key>Frameworks/libswiftsimd.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			FHKnd8uRmZEtmPgk0R1eL6X/FAo=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftsimd" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Louis Lenief (2E76V99N75)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DsC8D0ye+lggWB8tg2w3h4M1YPXzZeCF+uBX8PhXdYc=
+			8UVQHC1sQQ5Mg4B/tAFxXR7lzSIyPqFFtx1jveZysu0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VGhNxnrKKMndBccGjkLj1NRbvgZkQm/LL14uNF8owBQ=
+			Vs/32ijtFVH5yJmn8wSdu1J4M/MSHSrRpolu/EoNylA=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eBn0UDnSpMIi/BTBx8Oke1e4FtT3UTrIfVEIwRfjwRo=
+			x5MJN/Q7xv4Wdhp9NWt3PhjpLWpoz2aiClan39Kg2OU=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vNP1WoTVXUD+Z1KTWH3w4lsKd/WCv9kUxYHWFqPdH6E=
+			csreiwQsyciLJ7SiCeS1no8FieNdKbmL3ihR9K+pB/k=
 			</data>
 		</dict>
 		<key>Resources/libswiftRemoteMirror.dylib</key>

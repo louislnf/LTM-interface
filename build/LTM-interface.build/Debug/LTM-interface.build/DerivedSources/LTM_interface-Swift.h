@@ -183,22 +183,57 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSApplication;
 
 SWIFT_CLASS("_TtC13LTM_interface11AppDelegate")
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication * _Nonnull)sender SWIFT_WARN_UNUSED_RESULT;
 - (void)applicationDidFinishLaunching:(NSNotification * _Nonnull)aNotification;
 - (void)applicationWillTerminate:(NSNotification * _Nonnull)aNotification;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSTableView;
+@class AVPlayerView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC13LTM_interface14ViewController")
 @interface ViewController : NSViewController
+@property (nonatomic, weak) IBOutlet NSTableView * _Null_unspecified samplesTableView;
+@property (nonatomic, weak) IBOutlet NSTableView * _Null_unspecified videosTableView;
+@property (nonatomic, weak) IBOutlet NSTableView * _Null_unspecified microExpressionsSetsTableView;
+@property (nonatomic, weak) IBOutlet NSTableView * _Null_unspecified microExpressionsTableView;
+@property (nonatomic, weak) IBOutlet AVPlayerView * _Null_unspecified playerView;
 - (void)viewDidLoad;
 @property (nonatomic) id _Nullable representedObject;
 - (nonnull instancetype)initWithNibName:(NSNibName _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ViewController (SWIFT_EXTENSION(LTM_interface))
+- (void)samplesAction:(id _Nonnull)sender;
+@end
+
+
+@interface ViewController (SWIFT_EXTENSION(LTM_interface)) <NSTableViewDataSource>
+- (NSInteger)numberOfRowsInTableView:(NSTableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class NSTableColumn;
+@class NSView;
+
+@interface ViewController (SWIFT_EXTENSION(LTM_interface)) <NSTableViewDelegate>
+- (NSView * _Nullable)tableView:(NSTableView * _Nonnull)tableView viewForTableColumn:(NSTableColumn * _Nullable)tableColumn row:(NSInteger)row SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class NSWindow;
+
+SWIFT_CLASS("_TtC13LTM_interface16WindowController")
+@interface WindowController : NSWindowController
+- (IBAction)openDataSet:(id _Nonnull)sender;
+- (nonnull instancetype)initWithWindow:(NSWindow * _Nullable)window OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -13,6 +13,13 @@ class Sample {
     let allowedVideoFormats = ["mp4", "avi"]
     
     var url: URL
+    
+    var name: String {
+        get {
+            return url.lastPathComponent
+        }
+    }
+    
     var videos: Array<Video> {
         get {
             var v = Array<Video>()
@@ -23,7 +30,7 @@ class Sample {
                     if content.first! != "." {
                         let format = String(content.split(separator: ".").last!)
                         if allowedVideoFormats.contains(format) {
-                            v.append(Video(withUrl: url.appendingPathComponent(content)))
+                            v.append(Video(withUrl: url.appendingPathComponent("videos").appendingPathComponent(content)))
                         }
                     }
                  }
@@ -43,7 +50,7 @@ class Sample {
                     if content.first! != "." {
                         let format = String(content.split(separator: ".").last!)
                         if format == "ltm" {
-                            sets.append(MicroExpressionsSet(fromFile: url))
+                            sets.append(MicroExpressionsSet(fromFile: url.appendingPathComponent("microExpressions").appendingPathComponent(content)))
                         }
                     }
                 }

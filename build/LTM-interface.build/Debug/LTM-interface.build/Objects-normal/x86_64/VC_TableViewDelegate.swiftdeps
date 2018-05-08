@@ -1,0 +1,222 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "13LTM_interface14ViewControllerC"
+provides-member:
+- ["13LTM_interface14ViewControllerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSTableViewDelegate"
+- "ViewController"
+depends-member:
+- ["s7CVarArgP", "control"]
+- ["s7CVarArgP", "selectionShouldChange"]
+- ["s7CVarArgP", "selectionShouldChangeInTableView"]
+- ["s7CVarArgP", "tableView"]
+- ["s7CVarArgP", "tableViewColumnDidMove"]
+- ["s7CVarArgP", "tableViewColumnDidResize"]
+- ["s7CVarArgP", "tableViewSelectionDidChange"]
+- ["s7CVarArgP", "tableViewSelectionIsChanging"]
+- ["s28CustomDebugStringConvertibleP", "control"]
+- ["s28CustomDebugStringConvertibleP", "selectionShouldChange"]
+- ["s28CustomDebugStringConvertibleP", "selectionShouldChangeInTableView"]
+- ["s28CustomDebugStringConvertibleP", "tableView"]
+- ["s28CustomDebugStringConvertibleP", "tableViewColumnDidMove"]
+- ["s28CustomDebugStringConvertibleP", "tableViewColumnDidResize"]
+- ["s28CustomDebugStringConvertibleP", "tableViewSelectionDidChange"]
+- ["s28CustomDebugStringConvertibleP", "tableViewSelectionIsChanging"]
+- ["s23CustomStringConvertibleP", "control"]
+- ["s23CustomStringConvertibleP", "selectionShouldChange"]
+- ["s23CustomStringConvertibleP", "selectionShouldChangeInTableView"]
+- ["s23CustomStringConvertibleP", "tableView"]
+- ["s23CustomStringConvertibleP", "tableViewColumnDidMove"]
+- ["s23CustomStringConvertibleP", "tableViewColumnDidResize"]
+- ["s23CustomStringConvertibleP", "tableViewSelectionDidChange"]
+- ["s23CustomStringConvertibleP", "tableViewSelectionIsChanging"]
+- ["s9EquatableP", "control"]
+- ["s9EquatableP", "selectionShouldChange"]
+- ["s9EquatableP", "selectionShouldChangeInTableView"]
+- ["s9EquatableP", "tableView"]
+- ["s9EquatableP", "tableViewColumnDidMove"]
+- ["s9EquatableP", "tableViewColumnDidResize"]
+- ["s9EquatableP", "tableViewSelectionDidChange"]
+- ["s9EquatableP", "tableViewSelectionIsChanging"]
+- ["s8HashableP", "control"]
+- ["s8HashableP", "selectionShouldChange"]
+- ["s8HashableP", "selectionShouldChangeInTableView"]
+- ["s8HashableP", "tableView"]
+- ["s8HashableP", "tableViewColumnDidMove"]
+- ["s8HashableP", "tableViewColumnDidResize"]
+- ["s8HashableP", "tableViewSelectionDidChange"]
+- ["s8HashableP", "tableViewSelectionIsChanging"]
+- ["So8NSCodingP", "control"]
+- ["So8NSCodingP", "selectionShouldChange"]
+- ["So8NSCodingP", "selectionShouldChangeInTableView"]
+- ["So8NSCodingP", "tableView"]
+- ["So8NSCodingP", "tableViewColumnDidMove"]
+- ["So8NSCodingP", "tableViewColumnDidResize"]
+- ["So8NSCodingP", "tableViewSelectionDidChange"]
+- ["So8NSCodingP", "tableViewSelectionIsChanging"]
+- ["So28NSControlTextEditingDelegateP", ""]
+- ["So28NSControlTextEditingDelegateP", "control"]
+- ["So28NSControlTextEditingDelegateP", "selectionShouldChange"]
+- ["So28NSControlTextEditingDelegateP", "selectionShouldChangeInTableView"]
+- ["So28NSControlTextEditingDelegateP", "tableView"]
+- ["So28NSControlTextEditingDelegateP", "tableViewColumnDidMove"]
+- ["So28NSControlTextEditingDelegateP", "tableViewColumnDidResize"]
+- ["So28NSControlTextEditingDelegateP", "tableViewSelectionDidChange"]
+- ["So28NSControlTextEditingDelegateP", "tableViewSelectionIsChanging"]
+- ["So26NSExtensionRequestHandlingP", "control"]
+- ["So26NSExtensionRequestHandlingP", "selectionShouldChange"]
+- ["So26NSExtensionRequestHandlingP", "selectionShouldChangeInTableView"]
+- ["So26NSExtensionRequestHandlingP", "tableView"]
+- ["So26NSExtensionRequestHandlingP", "tableViewColumnDidMove"]
+- ["So26NSExtensionRequestHandlingP", "tableViewColumnDidResize"]
+- ["So26NSExtensionRequestHandlingP", "tableViewSelectionDidChange"]
+- ["So26NSExtensionRequestHandlingP", "tableViewSelectionIsChanging"]
+- ["So8NSObjectC", "control"]
+- ["So8NSObjectC", "selectionShouldChange"]
+- ["So8NSObjectC", "selectionShouldChangeInTableView"]
+- ["So8NSObjectC", "tableView"]
+- ["So8NSObjectC", "tableViewColumnDidMove"]
+- ["So8NSObjectC", "tableViewColumnDidResize"]
+- ["So8NSObjectC", "tableViewSelectionDidChange"]
+- ["So8NSObjectC", "tableViewSelectionIsChanging"]
+- ["So16NSObjectProtocolP", "control"]
+- ["So16NSObjectProtocolP", "selectionShouldChange"]
+- ["So16NSObjectProtocolP", "selectionShouldChangeInTableView"]
+- ["So16NSObjectProtocolP", "tableView"]
+- ["So16NSObjectProtocolP", "tableViewColumnDidMove"]
+- ["So16NSObjectProtocolP", "tableViewColumnDidResize"]
+- ["So16NSObjectProtocolP", "tableViewSelectionDidChange"]
+- ["So16NSObjectProtocolP", "tableViewSelectionIsChanging"]
+- ["So11NSResponderC", "control"]
+- ["So11NSResponderC", "selectionShouldChange"]
+- ["So11NSResponderC", "selectionShouldChangeInTableView"]
+- ["So11NSResponderC", "tableView"]
+- ["So11NSResponderC", "tableViewColumnDidMove"]
+- ["So11NSResponderC", "tableViewColumnDidResize"]
+- ["So11NSResponderC", "tableViewSelectionDidChange"]
+- ["So11NSResponderC", "tableViewSelectionIsChanging"]
+- ["So17NSSeguePerformingP", "control"]
+- ["So17NSSeguePerformingP", "selectionShouldChange"]
+- ["So17NSSeguePerformingP", "selectionShouldChangeInTableView"]
+- ["So17NSSeguePerformingP", "tableView"]
+- ["So17NSSeguePerformingP", "tableViewColumnDidMove"]
+- ["So17NSSeguePerformingP", "tableViewColumnDidResize"]
+- ["So17NSSeguePerformingP", "tableViewSelectionDidChange"]
+- ["So17NSSeguePerformingP", "tableViewSelectionIsChanging"]
+- ["So21NSTableViewDataSourceP", "control"]
+- ["So21NSTableViewDataSourceP", "selectionShouldChange"]
+- ["So21NSTableViewDataSourceP", "selectionShouldChangeInTableView"]
+- ["So21NSTableViewDataSourceP", "tableView"]
+- ["So21NSTableViewDataSourceP", "tableViewColumnDidMove"]
+- ["So21NSTableViewDataSourceP", "tableViewColumnDidResize"]
+- ["So21NSTableViewDataSourceP", "tableViewSelectionDidChange"]
+- ["So21NSTableViewDataSourceP", "tableViewSelectionIsChanging"]
+- ["So19NSTableViewDelegateP", ""]
+- ["So19NSTableViewDelegateP", "control"]
+- ["So19NSTableViewDelegateP", "selectionShouldChange"]
+- ["So19NSTableViewDelegateP", "selectionShouldChangeInTableView"]
+- ["So19NSTableViewDelegateP", "tableView"]
+- ["So19NSTableViewDelegateP", "tableViewColumnDidMove"]
+- ["So19NSTableViewDelegateP", "tableViewColumnDidResize"]
+- ["So19NSTableViewDelegateP", "tableViewSelectionDidChange"]
+- ["So19NSTableViewDelegateP", "tableViewSelectionIsChanging"]
+- ["So18NSTouchBarProviderP", "control"]
+- ["So18NSTouchBarProviderP", "selectionShouldChange"]
+- ["So18NSTouchBarProviderP", "selectionShouldChangeInTableView"]
+- ["So18NSTouchBarProviderP", "tableView"]
+- ["So18NSTouchBarProviderP", "tableViewColumnDidMove"]
+- ["So18NSTouchBarProviderP", "tableViewColumnDidResize"]
+- ["So18NSTouchBarProviderP", "tableViewSelectionDidChange"]
+- ["So18NSTouchBarProviderP", "tableViewSelectionIsChanging"]
+- ["So33NSUserInterfaceItemIdentificationP", "control"]
+- ["So33NSUserInterfaceItemIdentificationP", "selectionShouldChange"]
+- ["So33NSUserInterfaceItemIdentificationP", "selectionShouldChangeInTableView"]
+- ["So33NSUserInterfaceItemIdentificationP", "tableView"]
+- ["So33NSUserInterfaceItemIdentificationP", "tableViewColumnDidMove"]
+- ["So33NSUserInterfaceItemIdentificationP", "tableViewColumnDidResize"]
+- ["So33NSUserInterfaceItemIdentificationP", "tableViewSelectionDidChange"]
+- ["So33NSUserInterfaceItemIdentificationP", "tableViewSelectionIsChanging"]
+- ["So16NSViewControllerC", "control"]
+- ["So16NSViewControllerC", "selectionShouldChange"]
+- ["So16NSViewControllerC", "selectionShouldChangeInTableView"]
+- ["So16NSViewControllerC", "tableView"]
+- ["So16NSViewControllerC", "tableViewColumnDidMove"]
+- ["So16NSViewControllerC", "tableViewColumnDidResize"]
+- ["So16NSViewControllerC", "tableViewSelectionDidChange"]
+- ["So16NSViewControllerC", "tableViewSelectionIsChanging"]
+- ["13LTM_interface14ViewControllerC", "control"]
+- ["13LTM_interface14ViewControllerC", "deinit"]
+- ["13LTM_interface14ViewControllerC", "selectionShouldChange"]
+- ["13LTM_interface14ViewControllerC", "selectionShouldChangeInTableView"]
+- ["13LTM_interface14ViewControllerC", "tableView"]
+- ["13LTM_interface14ViewControllerC", "tableViewColumnDidMove"]
+- ["13LTM_interface14ViewControllerC", "tableViewColumnDidResize"]
+- ["13LTM_interface14ViewControllerC", "tableViewSelectionDidChange"]
+- ["13LTM_interface14ViewControllerC", "tableViewSelectionIsChanging"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "control"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "selectionShouldChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "selectionShouldChangeInTableView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableViewColumnDidMove"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableViewColumnDidResize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableViewSelectionDidChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableViewSelectionIsChanging"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So28NSControlTextEditingDelegateP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So11NSResponderC"
+- "So17NSSeguePerformingP"
+- "So21NSTableViewDataSourceP"
+- "So19NSTableViewDelegateP"
+- "So18NSTouchBarProviderP"
+- "So33NSUserInterfaceItemIdentificationP"
+- "So16NSViewControllerC"
+- "13LTM_interface14ViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "9b5e3c96f794bac046480319139558b8"

@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "13LTM_interface14ViewControllerC"
+provides-member:
+- ["13LTM_interface14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "numberOfRows"
+depends-top-level:
+- "Int"
+- "NSTableView"
+- "NSTableViewDataSource"
+- !private "TableViewTags"
+- "ViewController"
+- !private "~="
+depends-member:
+- !private ["s7CVarArgP", "TableViewTags"]
+- ["s7CVarArgP", "numberOfRows"]
+- ["s7CVarArgP", "numberOfRowsInTableView"]
+- ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "tag"]
+- !private ["s28CustomDebugStringConvertibleP", "TableViewTags"]
+- ["s28CustomDebugStringConvertibleP", "numberOfRows"]
+- ["s28CustomDebugStringConvertibleP", "numberOfRowsInTableView"]
+- ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "tag"]
+- !private ["s23CustomStringConvertibleP", "TableViewTags"]
+- ["s23CustomStringConvertibleP", "numberOfRows"]
+- ["s23CustomStringConvertibleP", "numberOfRowsInTableView"]
+- ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "tag"]
+- !private ["s9EquatableP", "TableViewTags"]
+- ["s9EquatableP", "numberOfRows"]
+- ["s9EquatableP", "numberOfRowsInTableView"]
+- ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "tag"]
+- !private ["s8HashableP", "TableViewTags"]
+- ["s8HashableP", "numberOfRows"]
+- ["s8HashableP", "numberOfRowsInTableView"]
+- ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "tag"]
+- !private ["So15NSAccessibilityP", "tag"]
+- !private ["So30NSAccessibilityElementProtocolP", "tag"]
+- !private ["So20NSAccessibilityGroupP", "tag"]
+- !private ["So20NSAccessibilityTableP", "tag"]
+- !private ["So29NSAnimatablePropertyContainerP", "tag"]
+- !private ["So25NSAppearanceCustomizationP", "tag"]
+- !private ["So8NSCodingP", "TableViewTags"]
+- ["So8NSCodingP", "numberOfRows"]
+- ["So8NSCodingP", "numberOfRowsInTableView"]
+- ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "tag"]
+- !private ["So9NSControlC", "tag"]
+- !private ["So21NSDraggingDestinationP", "tag"]
+- !private ["So16NSDraggingSourceP", "tag"]
+- !private ["So26NSExtensionRequestHandlingP", "TableViewTags"]
+- ["So26NSExtensionRequestHandlingP", "numberOfRows"]
+- ["So26NSExtensionRequestHandlingP", "numberOfRowsInTableView"]
+- ["So26NSExtensionRequestHandlingP", "tableView"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSTableView"]
+- !private ["So8NSObjectC", "TableViewTags"]
+- ["So8NSObjectC", "numberOfRows"]
+- ["So8NSObjectC", "numberOfRowsInTableView"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "tag"]
+- !private ["So16NSObjectProtocolP", "TableViewTags"]
+- ["So16NSObjectProtocolP", "numberOfRows"]
+- ["So16NSObjectProtocolP", "numberOfRowsInTableView"]
+- ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "tag"]
+- ["So11NSResponderC", "Int"]
+- ["So11NSResponderC", "NSTableView"]
+- !private ["So11NSResponderC", "TableViewTags"]
+- ["So11NSResponderC", "numberOfRows"]
+- ["So11NSResponderC", "numberOfRowsInTableView"]
+- ["So11NSResponderC", "tableView"]
+- !private ["So11NSResponderC", "tag"]
+- !private ["So17NSSeguePerformingP", "TableViewTags"]
+- ["So17NSSeguePerformingP", "numberOfRows"]
+- ["So17NSSeguePerformingP", "numberOfRowsInTableView"]
+- ["So17NSSeguePerformingP", "tableView"]
+- !private ["So11NSTableViewC", "tag"]
+- !private ["So21NSTableViewDataSourceP", "TableViewTags"]
+- ["So21NSTableViewDataSourceP", ""]
+- ["So21NSTableViewDataSourceP", "numberOfRows"]
+- ["So21NSTableViewDataSourceP", "numberOfRowsInTableView"]
+- ["So21NSTableViewDataSourceP", "tableView"]
+- !private ["So14NSTextDelegateP", "tag"]
+- !private ["So18NSTextViewDelegateP", "tag"]
+- !private ["So18NSTouchBarProviderP", "TableViewTags"]
+- ["So18NSTouchBarProviderP", "numberOfRows"]
+- ["So18NSTouchBarProviderP", "numberOfRowsInTableView"]
+- ["So18NSTouchBarProviderP", "tableView"]
+- !private ["So18NSTouchBarProviderP", "tag"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "TableViewTags"]
+- ["So33NSUserInterfaceItemIdentificationP", "numberOfRows"]
+- ["So33NSUserInterfaceItemIdentificationP", "numberOfRowsInTableView"]
+- ["So33NSUserInterfaceItemIdentificationP", "tableView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "tag"]
+- !private ["So26NSUserInterfaceValidationsP", "tag"]
+- !private ["So6NSViewC", "tag"]
+- ["So16NSViewControllerC", "Int"]
+- ["So16NSViewControllerC", "NSTableView"]
+- !private ["So16NSViewControllerC", "TableViewTags"]
+- ["So16NSViewControllerC", "numberOfRows"]
+- ["So16NSViewControllerC", "numberOfRowsInTableView"]
+- ["So16NSViewControllerC", "tableView"]
+- !private ["13LTM_interface13TableViewTagsC", "samples"]
+- ["13LTM_interface14ViewControllerC", "Int"]
+- ["13LTM_interface14ViewControllerC", "NSTableView"]
+- !private ["13LTM_interface14ViewControllerC", "TableViewTags"]
+- ["13LTM_interface14ViewControllerC", "deinit"]
+- ["13LTM_interface14ViewControllerC", "numberOfRows"]
+- ["13LTM_interface14ViewControllerC", "numberOfRowsInTableView"]
+- ["13LTM_interface14ViewControllerC", "tableView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TableViewTags"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfRows"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfRowsInTableView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tag"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- !private "So15NSAccessibilityP"
+- !private "So30NSAccessibilityElementProtocolP"
+- !private "So20NSAccessibilityGroupP"
+- !private "So20NSAccessibilityTableP"
+- !private "So29NSAnimatablePropertyContainerP"
+- !private "So25NSAppearanceCustomizationP"
+- "So8NSCodingP"
+- !private "So9NSControlC"
+- !private "So21NSDraggingDestinationP"
+- !private "So16NSDraggingSourceP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So11NSResponderC"
+- "So17NSSeguePerformingP"
+- !private "So11NSTableViewC"
+- "So21NSTableViewDataSourceP"
+- !private "So14NSTextDelegateP"
+- !private "So18NSTextViewDelegateP"
+- "So18NSTouchBarProviderP"
+- "So33NSUserInterfaceItemIdentificationP"
+- !private "So26NSUserInterfaceValidationsP"
+- !private "So6NSViewC"
+- "So16NSViewControllerC"
+- !private "13LTM_interface13TableViewTagsC"
+- "13LTM_interface14ViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "ce3bafd0e680467f5f0d140b6350b82b"

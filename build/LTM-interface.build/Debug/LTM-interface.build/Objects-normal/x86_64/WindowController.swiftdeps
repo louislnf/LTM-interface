@@ -1,0 +1,358 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WindowController"
+provides-nominal:
+- "13LTM_interface16WindowControllerC"
+provides-member:
+- ["13LTM_interface16WindowControllerC", ""]
+provides-dynamic-lookup:
+- "openDataSet"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "NSApplication"
+- !private "NSOpenPanel"
+- "NSWindowController"
+- "WindowController"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "ModalResponse"]
+- !private ["s7CVarArgP", "NSApplication"]
+- !private ["s7CVarArgP", "NSOpenPanel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "allowsMultipleSelection"]
+- !private ["s7CVarArgP", "canChooseDirectories"]
+- !private ["s7CVarArgP", "canChooseFiles"]
+- !private ["s7CVarArgP", "contentViewController"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "representedObject"]
+- !private ["s7CVarArgP", "runModal"]
+- !private ["s7CVarArgP", "urls"]
+- !private ["s10CollectionP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "ModalResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "NSApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "NSOpenPanel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allowsMultipleSelection"]
+- !private ["s28CustomDebugStringConvertibleP", "canChooseDirectories"]
+- !private ["s28CustomDebugStringConvertibleP", "canChooseFiles"]
+- !private ["s28CustomDebugStringConvertibleP", "contentViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "representedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "runModal"]
+- !private ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "ModalResponse"]
+- !private ["s23CustomStringConvertibleP", "NSApplication"]
+- !private ["s23CustomStringConvertibleP", "NSOpenPanel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "allowsMultipleSelection"]
+- !private ["s23CustomStringConvertibleP", "canChooseDirectories"]
+- !private ["s23CustomStringConvertibleP", "canChooseFiles"]
+- !private ["s23CustomStringConvertibleP", "contentViewController"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "representedObject"]
+- !private ["s23CustomStringConvertibleP", "runModal"]
+- !private ["s23CustomStringConvertibleP", "urls"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EquatableP", "ModalResponse"]
+- !private ["s9EquatableP", "NSApplication"]
+- !private ["s9EquatableP", "NSOpenPanel"]
+- !private ["s9EquatableP", "OK"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "allowsMultipleSelection"]
+- !private ["s9EquatableP", "canChooseDirectories"]
+- !private ["s9EquatableP", "canChooseFiles"]
+- !private ["s9EquatableP", "contentViewController"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "representedObject"]
+- !private ["s9EquatableP", "runModal"]
+- !private ["s9EquatableP", "urls"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "ModalResponse"]
+- !private ["s8HashableP", "NSApplication"]
+- !private ["s8HashableP", "NSOpenPanel"]
+- !private ["s8HashableP", "OK"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "allowsMultipleSelection"]
+- !private ["s8HashableP", "canChooseDirectories"]
+- !private ["s8HashableP", "canChooseFiles"]
+- !private ["s8HashableP", "contentViewController"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "representedObject"]
+- !private ["s8HashableP", "runModal"]
+- !private ["s8HashableP", "urls"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So13NSApplicationC13ModalResponseV", "OK"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["So15NSAccessibilityP", "ModalResponse"]
+- !private ["So15NSAccessibilityP", "allowsMultipleSelection"]
+- !private ["So15NSAccessibilityP", "canChooseDirectories"]
+- !private ["So15NSAccessibilityP", "canChooseFiles"]
+- !private ["So15NSAccessibilityP", "init"]
+- !private ["So15NSAccessibilityP", "runModal"]
+- !private ["So15NSAccessibilityP", "urls"]
+- !private ["So30NSAccessibilityElementProtocolP", "ModalResponse"]
+- !private ["So30NSAccessibilityElementProtocolP", "allowsMultipleSelection"]
+- !private ["So30NSAccessibilityElementProtocolP", "canChooseDirectories"]
+- !private ["So30NSAccessibilityElementProtocolP", "canChooseFiles"]
+- !private ["So30NSAccessibilityElementProtocolP", "init"]
+- !private ["So30NSAccessibilityElementProtocolP", "runModal"]
+- !private ["So30NSAccessibilityElementProtocolP", "urls"]
+- !private ["So29NSAnimatablePropertyContainerP", "allowsMultipleSelection"]
+- !private ["So29NSAnimatablePropertyContainerP", "canChooseDirectories"]
+- !private ["So29NSAnimatablePropertyContainerP", "canChooseFiles"]
+- !private ["So29NSAnimatablePropertyContainerP", "init"]
+- !private ["So29NSAnimatablePropertyContainerP", "runModal"]
+- !private ["So29NSAnimatablePropertyContainerP", "urls"]
+- !private ["So25NSAppearanceCustomizationP", "allowsMultipleSelection"]
+- !private ["So25NSAppearanceCustomizationP", "canChooseDirectories"]
+- !private ["So25NSAppearanceCustomizationP", "canChooseFiles"]
+- !private ["So25NSAppearanceCustomizationP", "init"]
+- !private ["So25NSAppearanceCustomizationP", "runModal"]
+- !private ["So25NSAppearanceCustomizationP", "urls"]
+- !private ["So13NSApplicationC", "ModalResponse"]
+- !private ["So8NSCodingP", "ModalResponse"]
+- !private ["So8NSCodingP", "NSApplication"]
+- !private ["So8NSCodingP", "NSOpenPanel"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "allowsMultipleSelection"]
+- !private ["So8NSCodingP", "canChooseDirectories"]
+- !private ["So8NSCodingP", "canChooseFiles"]
+- !private ["So8NSCodingP", "contentViewController"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "representedObject"]
+- !private ["So8NSCodingP", "runModal"]
+- !private ["So8NSCodingP", "urls"]
+- !private ["So26NSExtensionRequestHandlingP", "representedObject"]
+- !private ["So8NSObjectC", "ModalResponse"]
+- !private ["So8NSObjectC", "NSApplication"]
+- !private ["So8NSObjectC", "NSOpenPanel"]
+- !private ["So8NSObjectC", "allowsMultipleSelection"]
+- !private ["So8NSObjectC", "canChooseDirectories"]
+- !private ["So8NSObjectC", "canChooseFiles"]
+- !private ["So8NSObjectC", "contentViewController"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "openDataSet"]
+- !private ["So8NSObjectC", "representedObject"]
+- !private ["So8NSObjectC", "runModal"]
+- !private ["So8NSObjectC", "urls"]
+- !private ["So16NSObjectProtocolP", "ModalResponse"]
+- !private ["So16NSObjectProtocolP", "NSApplication"]
+- !private ["So16NSObjectProtocolP", "NSOpenPanel"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "allowsMultipleSelection"]
+- !private ["So16NSObjectProtocolP", "canChooseDirectories"]
+- !private ["So16NSObjectProtocolP", "canChooseFiles"]
+- !private ["So16NSObjectProtocolP", "contentViewController"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "representedObject"]
+- !private ["So16NSObjectProtocolP", "runModal"]
+- !private ["So16NSObjectProtocolP", "urls"]
+- !private ["So11NSOpenPanelC", "allowsMultipleSelection"]
+- !private ["So11NSOpenPanelC", "canChooseDirectories"]
+- !private ["So11NSOpenPanelC", "canChooseFiles"]
+- !private ["So11NSOpenPanelC", "init"]
+- !private ["So11NSOpenPanelC", "runModal"]
+- !private ["So11NSOpenPanelC", "urls"]
+- !private ["So7NSPanelC", "allowsMultipleSelection"]
+- !private ["So7NSPanelC", "canChooseDirectories"]
+- !private ["So7NSPanelC", "canChooseFiles"]
+- !private ["So7NSPanelC", "init"]
+- !private ["So7NSPanelC", "runModal"]
+- !private ["So7NSPanelC", "urls"]
+- !private ["So11NSResponderC", "ModalResponse"]
+- !private ["So11NSResponderC", "NSApplication"]
+- !private ["So11NSResponderC", "NSOpenPanel"]
+- !private ["So11NSResponderC", "allowsMultipleSelection"]
+- !private ["So11NSResponderC", "canChooseDirectories"]
+- !private ["So11NSResponderC", "canChooseFiles"]
+- !private ["So11NSResponderC", "contentViewController"]
+- ["So11NSResponderC", "init"]
+- ["So11NSResponderC", "openDataSet"]
+- !private ["So11NSResponderC", "representedObject"]
+- !private ["So11NSResponderC", "runModal"]
+- !private ["So11NSResponderC", "urls"]
+- !private ["So11NSSavePanelC", "allowsMultipleSelection"]
+- !private ["So11NSSavePanelC", "canChooseDirectories"]
+- !private ["So11NSSavePanelC", "canChooseFiles"]
+- !private ["So11NSSavePanelC", "init"]
+- !private ["So11NSSavePanelC", "runModal"]
+- !private ["So11NSSavePanelC", "urls"]
+- !private ["So17NSSeguePerformingP", "NSApplication"]
+- !private ["So17NSSeguePerformingP", "NSOpenPanel"]
+- ["So17NSSeguePerformingP", ""]
+- !private ["So17NSSeguePerformingP", "contentViewController"]
+- !private ["So17NSSeguePerformingP", "init"]
+- !private ["So17NSSeguePerformingP", "representedObject"]
+- !private ["So18NSTouchBarProviderP", "ModalResponse"]
+- !private ["So18NSTouchBarProviderP", "NSApplication"]
+- !private ["So18NSTouchBarProviderP", "NSOpenPanel"]
+- ["So18NSTouchBarProviderP", ""]
+- !private ["So18NSTouchBarProviderP", "allowsMultipleSelection"]
+- !private ["So18NSTouchBarProviderP", "canChooseDirectories"]
+- !private ["So18NSTouchBarProviderP", "canChooseFiles"]
+- !private ["So18NSTouchBarProviderP", "contentViewController"]
+- !private ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "representedObject"]
+- !private ["So18NSTouchBarProviderP", "runModal"]
+- !private ["So18NSTouchBarProviderP", "urls"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "allowsMultipleSelection"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "canChooseDirectories"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "canChooseFiles"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "init"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "representedObject"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "runModal"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "urls"]
+- !private ["So26NSUserInterfaceValidationsP", "ModalResponse"]
+- !private ["So26NSUserInterfaceValidationsP", "allowsMultipleSelection"]
+- !private ["So26NSUserInterfaceValidationsP", "canChooseDirectories"]
+- !private ["So26NSUserInterfaceValidationsP", "canChooseFiles"]
+- !private ["So26NSUserInterfaceValidationsP", "init"]
+- !private ["So26NSUserInterfaceValidationsP", "runModal"]
+- !private ["So26NSUserInterfaceValidationsP", "urls"]
+- !private ["So16NSViewControllerC", "representedObject"]
+- !private ["So8NSWindowC", "allowsMultipleSelection"]
+- !private ["So8NSWindowC", "canChooseDirectories"]
+- !private ["So8NSWindowC", "canChooseFiles"]
+- !private ["So8NSWindowC", "init"]
+- !private ["So8NSWindowC", "runModal"]
+- !private ["So8NSWindowC", "urls"]
+- !private ["So18NSWindowControllerC", "NSApplication"]
+- !private ["So18NSWindowControllerC", "NSOpenPanel"]
+- ["So18NSWindowControllerC", ""]
+- !private ["So18NSWindowControllerC", "contentViewController"]
+- ["So18NSWindowControllerC", "init"]
+- ["So18NSWindowControllerC", "openDataSet"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s16RawRepresentableP", "OK"]
+- !private ["s8SequenceP", "first"]
+- !private ["13LTM_interface16WindowControllerC", "NSApplication"]
+- !private ["13LTM_interface16WindowControllerC", "NSOpenPanel"]
+- !private ["13LTM_interface16WindowControllerC", "contentViewController"]
+- ["13LTM_interface16WindowControllerC", "deinit"]
+- ["13LTM_interface16WindowControllerC", "init"]
+- ["13LTM_interface16WindowControllerC", "openDataSet"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ModalResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSOpenPanel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowsMultipleSelection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canChooseDirectories"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canChooseFiles"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "representedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "runModal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["s21_ObjectiveCBridgeableP", "OK"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s20_SwiftNewtypeWrapperP", "OK"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So13NSApplicationC13ModalResponseV"
+- !private "s17MutableCollectionP"
+- !private "So15NSAccessibilityP"
+- !private "So30NSAccessibilityElementProtocolP"
+- !private "So29NSAnimatablePropertyContainerP"
+- !private "So25NSAppearanceCustomizationP"
+- !private "So13NSApplicationC"
+- "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So11NSOpenPanelC"
+- !private "So7NSPanelC"
+- "So11NSResponderC"
+- !private "So11NSSavePanelC"
+- "So17NSSeguePerformingP"
+- "So18NSTouchBarProviderP"
+- !private "So33NSUserInterfaceItemIdentificationP"
+- !private "So26NSUserInterfaceValidationsP"
+- !private "So16NSViewControllerC"
+- !private "So8NSWindowC"
+- "So18NSWindowControllerC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- "13LTM_interface16WindowControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "924ed284a9e010078e935c47cdcf3299"

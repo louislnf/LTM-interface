@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C89895F20A1F58800645A32 /* ViewController_TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89895E20A1F58800645A32 /* ViewController_TableViewDataSource.swift */; };
+		5C89896120A1F65B00645A32 /* TableViewTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89896020A1F65B00645A32 /* TableViewTags.swift */; };
+		5C89896320A1F6EB00645A32 /* ViewController_TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89896220A1F6EB00645A32 /* ViewController_TableViewDelegate.swift */; };
+		5C89896620A2062700645A32 /* ViewController_ActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89896520A2062700645A32 /* ViewController_ActionHandler.swift */; };
 		5CA467AA20A093710075680E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467A920A093710075680E /* AppDelegate.swift */; };
 		5CA467AC20A093710075680E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467AB20A093710075680E /* ViewController.swift */; };
 		5CA467AE20A093720075680E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA467AD20A093720075680E /* Assets.xcassets */; };
@@ -16,9 +20,14 @@
 		5CA467C620A19B5D0075680E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467C520A19B5D0075680E /* Video.swift */; };
 		5CA467C820A19CBF0075680E /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467C720A19CBF0075680E /* DataSet.swift */; };
 		5CA467CA20A19D230075680E /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467C920A19D230075680E /* Sample.swift */; };
+		5CA467CC20A1B0240075680E /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA467CB20A1B0240075680E /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C89895E20A1F58800645A32 /* ViewController_TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_TableViewDataSource.swift; sourceTree = "<group>"; };
+		5C89896020A1F65B00645A32 /* TableViewTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTags.swift; sourceTree = "<group>"; };
+		5C89896220A1F6EB00645A32 /* ViewController_TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_TableViewDelegate.swift; sourceTree = "<group>"; };
+		5C89896520A2062700645A32 /* ViewController_ActionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_ActionHandler.swift; sourceTree = "<group>"; };
 		5CA467A620A093710075680E /* LTM-interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LTM-interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA467A920A093710075680E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CA467AB20A093710075680E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +40,7 @@
 		5CA467C520A19B5D0075680E /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		5CA467C720A19CBF0075680E /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		5CA467C920A19D230075680E /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		5CA467CB20A1B0240075680E /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C89896420A1F7B300645A32 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CA467AB20A093710075680E /* ViewController.swift */,
+				5C89895E20A1F58800645A32 /* ViewController_TableViewDataSource.swift */,
+				5C89896220A1F6EB00645A32 /* ViewController_TableViewDelegate.swift */,
+				5C89896520A2062700645A32 /* ViewController_ActionHandler.swift */,
+				5C89896020A1F65B00645A32 /* TableViewTags.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		5CA4679D20A093710075680E = {
 			isa = PBXGroup;
 			children = (
@@ -63,9 +85,10 @@
 		5CA467A820A093710075680E /* LTM-interface */ = {
 			isa = PBXGroup;
 			children = (
-				5CA467BC20A09EB90075680E /* Model */,
 				5CA467A920A093710075680E /* AppDelegate.swift */,
-				5CA467AB20A093710075680E /* ViewController.swift */,
+				5CA467CB20A1B0240075680E /* WindowController.swift */,
+				5CA467BC20A09EB90075680E /* Model */,
+				5C89896420A1F7B300645A32 /* ViewController */,
 				5CA467AD20A093720075680E /* Assets.xcassets */,
 				5CA467AF20A093720075680E /* Main.storyboard */,
 				5CA467B220A093720075680E /* Info.plist */,
@@ -158,11 +181,16 @@
 			files = (
 				5CA467C820A19CBF0075680E /* DataSet.swift in Sources */,
 				5CA467AC20A093710075680E /* ViewController.swift in Sources */,
+				5C89895F20A1F58800645A32 /* ViewController_TableViewDataSource.swift in Sources */,
 				5CA467C420A0A2A20075680E /* MicroExpressionsSet.swift in Sources */,
 				5CA467AA20A093710075680E /* AppDelegate.swift in Sources */,
+				5C89896320A1F6EB00645A32 /* ViewController_TableViewDelegate.swift in Sources */,
 				5CA467C020A09F010075680E /* MicroExpression.swift in Sources */,
+				5CA467CC20A1B0240075680E /* WindowController.swift in Sources */,
 				5CA467CA20A19D230075680E /* Sample.swift in Sources */,
+				5C89896120A1F65B00645A32 /* TableViewTags.swift in Sources */,
 				5CA467C620A19B5D0075680E /* Video.swift in Sources */,
+				5C89896620A2062700645A32 /* ViewController_ActionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

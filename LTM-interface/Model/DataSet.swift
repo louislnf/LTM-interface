@@ -34,7 +34,9 @@ class DataSet {
             } catch {
                 NSLog("DataSet: failed to load samples")
             }
-            return s
+            return s.sorted(by: { (s1: Sample, s2: Sample) -> Bool in
+                return s1.name<s2.name
+            })
         }
     }
     

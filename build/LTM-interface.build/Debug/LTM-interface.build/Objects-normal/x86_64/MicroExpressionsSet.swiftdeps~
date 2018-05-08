@@ -7,7 +7,7 @@ provides-member:
 - ["13LTM_interface19MicroExpressionsSetC", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "..."
+- !private "..<"
 - !private ">"
 - !private "??"
 - "Array"
@@ -16,11 +16,13 @@ depends-top-level:
 - !private "Int"
 - "MicroExpression"
 - "MicroExpressionsSet"
+- "NSColor"
 - !private "NSLog"
 - "String"
 - !private "StringLiteralType"
 - "URL"
 - !private "UnicodeScalarType"
+- !private "print"
 depends-member:
 - !private ["Sa", "append"]
 - !private ["Sa", "count"]
@@ -36,8 +38,10 @@ depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "blue"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "red"]
 - !private ["s7CVarArgP", "split"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s9CharacterV", "init"]
@@ -49,12 +53,16 @@ depends-member:
 - !private ["s10ComparableP", "init"]
 - !private ["s10ComparableP", "split"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "blue"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
 - !private ["s28CustomDebugStringConvertibleP", "split"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
 - !private ["s29CustomPlaygroundQuickLookableP", "split"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
@@ -64,26 +72,34 @@ depends-member:
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "blue"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
+- !private ["s23CustomStringConvertibleP", "red"]
 - !private ["s23CustomStringConvertibleP", "split"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
 - !private ["s9DecodableP", "count"]
 - !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "lastPathComponent"]
 - !private ["s9DecodableP", "split"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "append"]
 - !private ["s9EncodableP", "count"]
 - !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "lastPathComponent"]
 - !private ["s9EncodableP", "split"]
 - !private ["s9EncodableP", "subscript"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "blue"]
 - !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lastPathComponent"]
+- !private ["s9EquatableP", "red"]
 - !private ["s9EquatableP", "split"]
 - !private ["s9EquatableP", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
@@ -101,12 +117,16 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
 - !private ["s17FixedWidthIntegerP", "init"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "blue"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lastPathComponent"]
+- !private ["s8HashableP", "red"]
 - !private ["s8HashableP", "split"]
 - !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "split"]
+- !private ["13LTM_interface15MicroExpressionV", "actionUnit"]
 - !private ["13LTM_interface15MicroExpressionV", "description"]
 - !private ["13LTM_interface15MicroExpressionV", "init"]
 - !private ["13LTM_interface15MicroExpressionV", "offset"]
@@ -114,6 +134,7 @@ depends-member:
 - ["13LTM_interface19MicroExpressionsSetC", "Array"]
 - !private ["13LTM_interface19MicroExpressionsSetC", "Int"]
 - ["13LTM_interface19MicroExpressionsSetC", "MicroExpression"]
+- ["13LTM_interface19MicroExpressionsSetC", "NSColor"]
 - !private ["13LTM_interface19MicroExpressionsSetC", "NSLog"]
 - ["13LTM_interface19MicroExpressionsSetC", "String"]
 - ["13LTM_interface19MicroExpressionsSetC", "URL"]
@@ -121,7 +142,10 @@ depends-member:
 - ["13LTM_interface19MicroExpressionsSetC", "data"]
 - ["13LTM_interface19MicroExpressionsSetC", "deinit"]
 - ["13LTM_interface19MicroExpressionsSetC", "init"]
+- ["13LTM_interface19MicroExpressionsSetC", "name"]
+- !private ["13LTM_interface19MicroExpressionsSetC", "print"]
 - ["13LTM_interface19MicroExpressionsSetC", "source"]
+- ["13LTM_interface19MicroExpressionsSetC", "url"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "split"]
 - !private ["s17MutableCollectionP", "append"]
@@ -129,15 +153,31 @@ depends-member:
 - !private ["s17MutableCollectionP", "init"]
 - !private ["s17MutableCollectionP", "split"]
 - !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "blue"]
+- !private ["So8NSCodingP", "red"]
 - !private ["So8NSCodingP", "split"]
+- !private ["So7NSColorC", "blue"]
+- !private ["So7NSColorC", "red"]
+- !private ["So9NSCopyingP", "blue"]
+- !private ["So9NSCopyingP", "red"]
 - !private ["So9NSCopyingP", "split"]
 - !private ["So21NSItemProviderReadingP", "split"]
 - !private ["So21NSItemProviderWritingP", "split"]
 - !private ["So16NSMutableCopyingP", "split"]
+- !private ["So8NSObjectC", "blue"]
+- !private ["So8NSObjectC", "red"]
 - !private ["So8NSObjectC", "split"]
+- !private ["So16NSObjectProtocolP", "blue"]
+- !private ["So16NSObjectProtocolP", "red"]
 - !private ["So16NSObjectProtocolP", "split"]
+- !private ["So19NSPasteboardReadingP", "blue"]
+- !private ["So19NSPasteboardReadingP", "red"]
 - !private ["So19NSPasteboardReadingP", "split"]
+- !private ["So19NSPasteboardWritingP", "blue"]
+- !private ["So19NSPasteboardWritingP", "red"]
 - !private ["So19NSPasteboardWritingP", "split"]
+- !private ["So14NSSecureCodingP", "blue"]
+- !private ["So14NSSecureCodingP", "red"]
 - !private ["So14NSSecureCodingP", "split"]
 - !private ["So8NSStringC", "split"]
 - !private ["s7NumericP", "init"]
@@ -151,6 +191,7 @@ depends-member:
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "split"]
 - !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
 - !private ["s8SequenceP", "append"]
 - !private ["s8SequenceP", "count"]
 - !private ["s8SequenceP", "init"]
@@ -168,6 +209,7 @@ depends-member:
 - !private ["s16TextOutputStreamP", "split"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "split"]
+- !private ["10Foundation3URLV", "lastPathComponent"]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "init"]
@@ -190,14 +232,20 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "split"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "split"]
+- !private ["s26_ExpressibleByColorLiteralP", "blue"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "lastPathComponent"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "split"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "split"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "blue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "split"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lastPathComponent"]
 - !private ["s21_ObjectiveCBridgeableP", "split"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s16_SwiftStringViewP", "init"]
@@ -234,6 +282,7 @@ depends-nominal:
 - !private "s10MirrorPathP"
 - !private "s17MutableCollectionP"
 - !private "So8NSCodingP"
+- !private "So7NSColorC"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
@@ -247,6 +296,7 @@ depends-nominal:
 - !private "s7NumericP"
 - !private "s22RandomAccessCollectionP"
 - !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
 - !private "s8SequenceP"
 - !private "s13SignedIntegerP"
 - !private "s13SignedNumericP"
@@ -256,6 +306,7 @@ depends-nominal:
 - !private "s9SubstringV"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
 - !private "s14_ArrayProtocolP"
 - !private "s18_BitwiseOperationsP"
 - !private "s24_DestructorSafeContainerP"
@@ -266,6 +317,8 @@ depends-nominal:
 - !private "s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
@@ -276,14 +329,18 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
@@ -297,7 +354,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "6254a9cb4cacf5eacb81c77199519968"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "4322f08f9adcfe38b9a79356aa93b01f"

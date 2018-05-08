@@ -18,6 +18,10 @@ class Video {
         }
     }
     
+    var framerate: Float {
+        return 0.0
+    }
+    
     init(withUrl url: URL) {
         self.url = url
     }

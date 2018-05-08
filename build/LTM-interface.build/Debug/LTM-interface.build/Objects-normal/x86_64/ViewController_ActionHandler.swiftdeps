@@ -1,0 +1,297 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13LTM_interface14ViewControllerC", ""]
+- ["13LTM_interface14ViewControllerC", "samplesAction"]
+provides-dynamic-lookup:
+- "samplesAction"
+depends-top-level:
+- "AnyObject"
+- !private "NSLog"
+- !private "StringLiteralType"
+- "ViewController"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "NSLog"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "microExpressionsSetsTableView"]
+- !private ["s7CVarArgP", "microExpressionsTableView"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "samplesTableView"]
+- !private ["s7CVarArgP", "selectedRow"]
+- !private ["s7CVarArgP", "videosTableView"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "microExpressionsSetsTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "microExpressionsTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "samplesTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedRow"]
+- !private ["s28CustomDebugStringConvertibleP", "videosTableView"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "microExpressionsSetsTableView"]
+- !private ["s23CustomStringConvertibleP", "microExpressionsTableView"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "samplesTableView"]
+- !private ["s23CustomStringConvertibleP", "selectedRow"]
+- !private ["s23CustomStringConvertibleP", "videosTableView"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "NSLog"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "microExpressionsSetsTableView"]
+- !private ["s9EquatableP", "microExpressionsTableView"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s9EquatableP", "samplesTableView"]
+- !private ["s9EquatableP", "selectedRow"]
+- !private ["s9EquatableP", "videosTableView"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "NSLog"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "microExpressionsSetsTableView"]
+- !private ["s8HashableP", "microExpressionsTableView"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["s8HashableP", "samplesTableView"]
+- !private ["s8HashableP", "selectedRow"]
+- !private ["s8HashableP", "videosTableView"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So15NSAccessibilityP", "reloadData"]
+- !private ["So15NSAccessibilityP", "selectedRow"]
+- !private ["So30NSAccessibilityElementProtocolP", "reloadData"]
+- !private ["So30NSAccessibilityElementProtocolP", "selectedRow"]
+- !private ["So20NSAccessibilityGroupP", "reloadData"]
+- !private ["So20NSAccessibilityGroupP", "selectedRow"]
+- !private ["So20NSAccessibilityTableP", "reloadData"]
+- !private ["So20NSAccessibilityTableP", "selectedRow"]
+- !private ["So29NSAnimatablePropertyContainerP", "reloadData"]
+- !private ["So29NSAnimatablePropertyContainerP", "selectedRow"]
+- !private ["So25NSAppearanceCustomizationP", "reloadData"]
+- !private ["So25NSAppearanceCustomizationP", "selectedRow"]
+- !private ["So8NSCodingP", "NSLog"]
+- !private ["So8NSCodingP", "microExpressionsSetsTableView"]
+- !private ["So8NSCodingP", "microExpressionsTableView"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "samplesTableView"]
+- !private ["So8NSCodingP", "selectedRow"]
+- !private ["So8NSCodingP", "videosTableView"]
+- !private ["So9NSControlC", "reloadData"]
+- !private ["So9NSControlC", "selectedRow"]
+- !private ["So28NSControlTextEditingDelegateP", "NSLog"]
+- !private ["So28NSControlTextEditingDelegateP", "microExpressionsSetsTableView"]
+- !private ["So28NSControlTextEditingDelegateP", "microExpressionsTableView"]
+- !private ["So28NSControlTextEditingDelegateP", "samplesTableView"]
+- !private ["So28NSControlTextEditingDelegateP", "videosTableView"]
+- !private ["So21NSDraggingDestinationP", "reloadData"]
+- !private ["So21NSDraggingDestinationP", "selectedRow"]
+- !private ["So16NSDraggingSourceP", "reloadData"]
+- !private ["So16NSDraggingSourceP", "selectedRow"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLog"]
+- !private ["So26NSExtensionRequestHandlingP", "microExpressionsSetsTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "microExpressionsTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "samplesTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "videosTableView"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "NSLog"]
+- !private ["So8NSObjectC", "microExpressionsSetsTableView"]
+- !private ["So8NSObjectC", "microExpressionsTableView"]
+- !private ["So8NSObjectC", "reloadData"]
+- ["So8NSObjectC", "samplesAction"]
+- !private ["So8NSObjectC", "samplesTableView"]
+- !private ["So8NSObjectC", "selectedRow"]
+- !private ["So8NSObjectC", "videosTableView"]
+- !private ["So16NSObjectProtocolP", "NSLog"]
+- !private ["So16NSObjectProtocolP", "microExpressionsSetsTableView"]
+- !private ["So16NSObjectProtocolP", "microExpressionsTableView"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "samplesTableView"]
+- !private ["So16NSObjectProtocolP", "selectedRow"]
+- !private ["So16NSObjectProtocolP", "videosTableView"]
+- ["So11NSResponderC", "AnyObject"]
+- !private ["So11NSResponderC", "NSLog"]
+- !private ["So11NSResponderC", "microExpressionsSetsTableView"]
+- !private ["So11NSResponderC", "microExpressionsTableView"]
+- !private ["So11NSResponderC", "reloadData"]
+- ["So11NSResponderC", "samplesAction"]
+- !private ["So11NSResponderC", "samplesTableView"]
+- !private ["So11NSResponderC", "selectedRow"]
+- !private ["So11NSResponderC", "videosTableView"]
+- !private ["So17NSSeguePerformingP", "NSLog"]
+- !private ["So17NSSeguePerformingP", "microExpressionsSetsTableView"]
+- !private ["So17NSSeguePerformingP", "microExpressionsTableView"]
+- !private ["So17NSSeguePerformingP", "samplesTableView"]
+- !private ["So17NSSeguePerformingP", "videosTableView"]
+- !private ["So11NSTableViewC", "reloadData"]
+- !private ["So11NSTableViewC", "selectedRow"]
+- !private ["So21NSTableViewDataSourceP", "NSLog"]
+- !private ["So21NSTableViewDataSourceP", "microExpressionsSetsTableView"]
+- !private ["So21NSTableViewDataSourceP", "microExpressionsTableView"]
+- !private ["So21NSTableViewDataSourceP", "samplesTableView"]
+- !private ["So21NSTableViewDataSourceP", "videosTableView"]
+- !private ["So19NSTableViewDelegateP", "NSLog"]
+- !private ["So19NSTableViewDelegateP", "microExpressionsSetsTableView"]
+- !private ["So19NSTableViewDelegateP", "microExpressionsTableView"]
+- !private ["So19NSTableViewDelegateP", "samplesTableView"]
+- !private ["So19NSTableViewDelegateP", "videosTableView"]
+- !private ["So14NSTextDelegateP", "reloadData"]
+- !private ["So14NSTextDelegateP", "selectedRow"]
+- !private ["So18NSTextViewDelegateP", "reloadData"]
+- !private ["So18NSTextViewDelegateP", "selectedRow"]
+- !private ["So18NSTouchBarProviderP", "NSLog"]
+- !private ["So18NSTouchBarProviderP", "microExpressionsSetsTableView"]
+- !private ["So18NSTouchBarProviderP", "microExpressionsTableView"]
+- !private ["So18NSTouchBarProviderP", "reloadData"]
+- !private ["So18NSTouchBarProviderP", "samplesTableView"]
+- !private ["So18NSTouchBarProviderP", "selectedRow"]
+- !private ["So18NSTouchBarProviderP", "videosTableView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "NSLog"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "microExpressionsSetsTableView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "microExpressionsTableView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "reloadData"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "samplesTableView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "selectedRow"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "videosTableView"]
+- !private ["So26NSUserInterfaceValidationsP", "reloadData"]
+- !private ["So26NSUserInterfaceValidationsP", "selectedRow"]
+- !private ["So6NSViewC", "reloadData"]
+- !private ["So6NSViewC", "selectedRow"]
+- ["So16NSViewControllerC", "AnyObject"]
+- !private ["So16NSViewControllerC", "NSLog"]
+- !private ["So16NSViewControllerC", "microExpressionsSetsTableView"]
+- !private ["So16NSViewControllerC", "microExpressionsTableView"]
+- ["So16NSViewControllerC", "samplesAction"]
+- !private ["So16NSViewControllerC", "samplesTableView"]
+- !private ["So16NSViewControllerC", "videosTableView"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["13LTM_interface14ViewControllerC", "AnyObject"]
+- !private ["13LTM_interface14ViewControllerC", "NSLog"]
+- !private ["13LTM_interface14ViewControllerC", "microExpressionsSetsTableView"]
+- !private ["13LTM_interface14ViewControllerC", "microExpressionsTableView"]
+- ["13LTM_interface14ViewControllerC", "samplesAction"]
+- !private ["13LTM_interface14ViewControllerC", "samplesTableView"]
+- !private ["13LTM_interface14ViewControllerC", "videosTableView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedRow"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "microExpressionsSetsTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "microExpressionsTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "samplesTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "videosTableView"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So15NSAccessibilityP"
+- !private "So30NSAccessibilityElementProtocolP"
+- !private "So20NSAccessibilityGroupP"
+- !private "So20NSAccessibilityTableP"
+- !private "So29NSAnimatablePropertyContainerP"
+- !private "So25NSAppearanceCustomizationP"
+- !private "So8NSCodingP"
+- !private "So9NSControlC"
+- !private "So28NSControlTextEditingDelegateP"
+- !private "So21NSDraggingDestinationP"
+- !private "So16NSDraggingSourceP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "So11NSResponderC"
+- !private "So17NSSeguePerformingP"
+- !private "So11NSTableViewC"
+- !private "So21NSTableViewDataSourceP"
+- !private "So19NSTableViewDelegateP"
+- !private "So14NSTextDelegateP"
+- !private "So18NSTextViewDelegateP"
+- !private "So18NSTouchBarProviderP"
+- !private "So33NSUserInterfaceItemIdentificationP"
+- !private "So26NSUserInterfaceValidationsP"
+- !private "So6NSViewC"
+- "So16NSViewControllerC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "13LTM_interface14ViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "5cc28fc3aa79deec1e0aca36f63d26b8"
