@@ -12,10 +12,27 @@ import Cocoa
 extension ViewController {
     
     @objc func samplesAction(_ sender: AnyObject) {
-        NSLog("samples clicked: \(samplesTableView.selectedRow)")
         videosTableView.reloadData()
         microExpressionsSetsTableView.reloadData()
         microExpressionsTableView.reloadData()
+    }
+    
+    @objc func videosAction(_ sender: AnyObject) {
+        playSelectedVideo()
+    }
+    
+    @objc func microExpressionsSetsAction(_ sender: AnyObject) {
+        /*debug*/
+        let sampleRow = samplesTableView.selectedRow
+        let meSetRow = microExpressionsSetsTableView.selectedRow
+        print(dataSet?.samples[sampleRow].microExpressionsSets[meSetRow].data ?? 0)
+        /*end debug*/
+        
+        microExpressionsTableView.reloadData()
+    }
+    
+    @objc func microExpressionsDoubleAction(_ sender: AnyObject) {
+        
     }
     
 }

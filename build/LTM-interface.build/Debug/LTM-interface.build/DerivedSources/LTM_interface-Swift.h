@@ -166,6 +166,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ObjectiveC;
 @import AppKit;
 @import Foundation;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -193,10 +194,19 @@ SWIFT_CLASS("_TtC13LTM_interface11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSColorWell;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC13LTM_interface18ColorTableCellView")
+@interface ColorTableCellView : NSTableCellView
+@property (nonatomic, weak) IBOutlet NSColorWell * _Null_unspecified colorWell;
+- (nonnull instancetype)initWithFrame:(NSRect)frameRect OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)decoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSTableView;
 @class AVPlayerView;
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC13LTM_interface14ViewController")
 @interface ViewController : NSViewController
@@ -212,9 +222,6 @@ SWIFT_CLASS("_TtC13LTM_interface14ViewController")
 @end
 
 
-@interface ViewController (SWIFT_EXTENSION(LTM_interface))
-- (void)samplesAction:(id _Nonnull)sender;
-@end
 
 
 @interface ViewController (SWIFT_EXTENSION(LTM_interface)) <NSTableViewDataSource>
@@ -226,6 +233,14 @@ SWIFT_CLASS("_TtC13LTM_interface14ViewController")
 
 @interface ViewController (SWIFT_EXTENSION(LTM_interface)) <NSTableViewDelegate>
 - (NSView * _Nullable)tableView:(NSTableView * _Nonnull)tableView viewForTableColumn:(NSTableColumn * _Nullable)tableColumn row:(NSInteger)row SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface ViewController (SWIFT_EXTENSION(LTM_interface))
+- (void)samplesAction:(id _Nonnull)sender;
+- (void)videosAction:(id _Nonnull)sender;
+- (void)microExpressionsSetsAction:(id _Nonnull)sender;
+- (void)microExpressionsDoubleAction:(id _Nonnull)sender;
 @end
 
 @class NSWindow;

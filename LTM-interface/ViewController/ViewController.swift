@@ -13,6 +13,7 @@ class ViewController: NSViewController {
 
     
     var dataSet: DataSet?
+    var player: AVPlayer?
     
     @IBOutlet weak var samplesTableView: NSTableView!
     @IBOutlet weak var videosTableView: NSTableView!
@@ -22,8 +23,8 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        /* setting up table views */
         
         samplesTableView.tag = TableViewTags.samples
         samplesTableView.delegate = self
@@ -34,15 +35,25 @@ class ViewController: NSViewController {
         videosTableView.tag = TableViewTags.videos
         videosTableView.delegate = self
         videosTableView.dataSource = self
+        videosTableView.target = self
+        videosTableView.action = #selector(videosAction(_:))
         
         microExpressionsSetsTableView.tag = TableViewTags.microExpressionsSets
         microExpressionsSetsTableView.delegate = self
         microExpressionsSetsTableView.dataSource = self
+        microExpressionsSetsTableView.target = self
+        microExpressionsSetsTableView.action = #selector(microExpressionsSetsAction(_:))
         
         microExpressionsTableView.tag = TableViewTags.microExpressions
         microExpressionsTableView.delegate = self
         microExpressionsTableView.dataSource = self
+        microExpressionsTableView.target = self
+        microExpressionsTableView.doubleAction = #selector(microExpressionsDoubleAction(_:))
         
+        /* setting up the player */
+        
+        self.player = AVPlayer()
+        playerView.player = self.player
         
     }
 

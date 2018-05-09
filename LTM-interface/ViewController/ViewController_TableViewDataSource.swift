@@ -32,7 +32,12 @@ extension ViewController: NSTableViewDataSource {
                 }
             }
         case TableViewTags.microExpressions:
-            break
+            // get selected sample and ME-Set
+            let sampleRow = samplesTableView.selectedRow
+            let meSetRow = samplesTableView.selectedRow
+            if sampleRow >= 0 && meSetRow >= 0 {
+                return dataSet?.samples[sampleRow].microExpressionsSets[meSetRow].data.count ?? 0
+            }
         default:
             break
         }

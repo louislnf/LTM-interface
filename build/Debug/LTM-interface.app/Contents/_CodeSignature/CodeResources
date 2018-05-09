@@ -6,19 +6,19 @@
 	<dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		xeMq+qPFb1I+G6qEuIEJAaTwgaM=
+		mMainPPBaUFkTVsGTud1q18DSis=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		Jp4uuo3PkV95FcRZNEhzMPIFPvM=
+		/RxSp04+vc2VzCEzM7wnofXCgok=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<data>
-		+4FO24cFb0eQkaxuG77b+5YNLAY=
+		jGWMBJ0qCHz+JU0Wvah5BfoO/AU=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		2lcCwrxlxN30WD/jJ6I26qtcVGA=
+		krT0eSCJXYtJatdthgJ3mfX3LkQ=
 		</data>
 		<key>Resources/libswiftRemoteMirror.dylib</key>
 		<data>
@@ -211,28 +211,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8UVQHC1sQQ5Mg4B/tAFxXR7lzSIyPqFFtx1jveZysu0=
+			XZuR9NV65cK9Fht9i80oXLx0MOp55QLp5DmAHJfdga4=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vs/32ijtFVH5yJmn8wSdu1J4M/MSHSrRpolu/EoNylA=
+			AgJ1Ta75rRWQhMeoXjj5CRThKSl2xFp0P3YM4XbzWX4=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x5MJN/Q7xv4Wdhp9NWt3PhjpLWpoz2aiClan39Kg2OU=
+			tU7heXEfXElweHMm2hruXoHRi4DSDRQl4aPS0aTM7Ug=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			csreiwQsyciLJ7SiCeS1no8FieNdKbmL3ihR9K+pB/k=
+			5T3D0k1DWSIWE6zXJWfgJvUfSl7/LHBFpMWj1w1VNIw=
 			</data>
 		</dict>
 		<key>Resources/libswiftRemoteMirror.dylib</key>

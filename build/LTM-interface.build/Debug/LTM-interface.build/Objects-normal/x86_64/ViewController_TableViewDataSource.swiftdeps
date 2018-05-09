@@ -7,6 +7,7 @@ provides-member:
 provides-dynamic-lookup:
 - "numberOfRows"
 depends-top-level:
+- !private "&&"
 - !private ">="
 - !private "??"
 - "Int"
@@ -18,7 +19,11 @@ depends-top-level:
 depends-member:
 - !private ["Sa", "count"]
 - !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "data"]
+- !private ["s10ArraySliceV", "microExpressionsSets"]
 - !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "data"]
+- !private ["s23BidirectionalCollectionP", "microExpressionsSets"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "TableViewTags"]
@@ -33,10 +38,14 @@ depends-member:
 - ["s7CVarArgP", "tableView"]
 - !private ["s7CVarArgP", "tag"]
 - !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "data"]
+- !private ["s10CollectionP", "microExpressionsSets"]
 - !private ["s10CollectionP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "TableViewTags"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
 - !private ["s28CustomDebugStringConvertibleP", "dataSet"]
+- !private ["s28CustomDebugStringConvertibleP", "microExpressionsSets"]
 - ["s28CustomDebugStringConvertibleP", "numberOfRows"]
 - ["s28CustomDebugStringConvertibleP", "numberOfRowsInTableView"]
 - !private ["s28CustomDebugStringConvertibleP", "samplesTableView"]
@@ -47,11 +56,15 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "microExpressionsSets"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "TableViewTags"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
 - !private ["s23CustomStringConvertibleP", "dataSet"]
+- !private ["s23CustomStringConvertibleP", "microExpressionsSets"]
 - ["s23CustomStringConvertibleP", "numberOfRows"]
 - ["s23CustomStringConvertibleP", "numberOfRowsInTableView"]
 - !private ["s23CustomStringConvertibleP", "samplesTableView"]
@@ -69,7 +82,9 @@ depends-member:
 - !private ["s9EquatableP", "TableViewTags"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "data"]
 - !private ["s9EquatableP", "dataSet"]
+- !private ["s9EquatableP", "microExpressionsSets"]
 - ["s9EquatableP", "numberOfRows"]
 - ["s9EquatableP", "numberOfRowsInTableView"]
 - !private ["s9EquatableP", "samplesTableView"]
@@ -78,6 +93,8 @@ depends-member:
 - ["s9EquatableP", "tableView"]
 - !private ["s9EquatableP", "tag"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "data"]
+- !private ["s25ExpressibleByArrayLiteralP", "microExpressionsSets"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "TableViewTags"]
@@ -90,7 +107,10 @@ depends-member:
 - ["s8HashableP", "tableView"]
 - !private ["s8HashableP", "tag"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["13LTM_interface19MicroExpressionsSetC", "data"]
 - !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "data"]
+- !private ["s17MutableCollectionP", "microExpressionsSets"]
 - !private ["s17MutableCollectionP", "subscript"]
 - !private ["So15NSAccessibilityP", "selectedRow"]
 - !private ["So15NSAccessibilityP", "tag"]
@@ -212,12 +232,18 @@ depends-member:
 - !private ["So16NSViewControllerC", "samplesTableView"]
 - ["So16NSViewControllerC", "tableView"]
 - !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "data"]
+- !private ["s22RandomAccessCollectionP", "microExpressionsSets"]
 - !private ["s22RandomAccessCollectionP", "subscript"]
 - !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "data"]
+- !private ["s26RangeReplaceableCollectionP", "microExpressionsSets"]
 - !private ["s26RangeReplaceableCollectionP", "subscript"]
 - !private ["13LTM_interface6SampleC", "microExpressionsSets"]
 - !private ["13LTM_interface6SampleC", "videos"]
 - !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "data"]
+- !private ["s8SequenceP", "microExpressionsSets"]
 - !private ["s8SequenceP", "subscript"]
 - !private ["13LTM_interface13TableViewTagsC", "microExpressions"]
 - !private ["13LTM_interface13TableViewTagsC", "microExpressionsSets"]
@@ -233,10 +259,14 @@ depends-member:
 - !private ["13LTM_interface14ViewControllerC", "samplesTableView"]
 - ["13LTM_interface14ViewControllerC", "tableView"]
 - !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "data"]
+- !private ["s14_ArrayProtocolP", "microExpressionsSets"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedRow"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tag"]
 - !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "data"]
+- !private ["s24_DestructorSafeContainerP", "microExpressionsSets"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "TableViewTags"]
@@ -252,6 +282,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
 - !private "Sa"
+- !private "s10ArraySliceV"
 - !private "s23BidirectionalCollectionP"
 - !private "Sb"
 - "s7CVarArgP"
@@ -268,6 +299,7 @@ depends-nominal:
 - !private "s27ExpressibleByBooleanLiteralP"
 - "s8HashableP"
 - !private "s25LosslessStringConvertibleP"
+- !private "13LTM_interface19MicroExpressionsSetC"
 - !private "s17MutableCollectionP"
 - !private "So15NSAccessibilityP"
 - !private "So30NSAccessibilityElementProtocolP"

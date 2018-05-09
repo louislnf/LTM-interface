@@ -24,7 +24,7 @@ class MicroExpressionsSet {
     
     init(fromFile url: URL) {
         self.url = url
-        self.source = "test"
+        self.source = ""
         self.color = NSColor.red
         self.data = Array<MicroExpression>()
         do {

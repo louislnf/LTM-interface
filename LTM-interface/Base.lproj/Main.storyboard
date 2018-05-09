@@ -416,16 +416,19 @@
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                             <prototypeCellViews>
-                                                                                <tableCellView identifier="meSetsColorCellID" id="TqG-Xg-Tut">
-                                                                                    <rect key="frame" x="161.5" y="1" width="76" height="17"/>
+                                                                                <tableCellView identifier="meSetsColorCellID" id="TqG-Xg-Tut" customClass="ColorTableCellView" customModule="LTM_interface" customModuleProvider="target">
+                                                                                    <rect key="frame" x="162" y="1" width="77" height="17"/>
                                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                     <subviews>
-                                                                                        <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="csG-HG-9sH">
+                                                                                        <colorWell fixedFrame="YES" bordered="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csG-HG-9sH">
                                                                                             <rect key="frame" x="15" y="-3" width="44" height="23"/>
                                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                                            <color key="color" red="0.05813049898" green="0.055541899059999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                            <color key="color" red="1" green="0.59313735081403485" blue="0.5359285573304603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                         </colorWell>
                                                                                     </subviews>
+                                                                                    <connections>
+                                                                                        <outlet property="colorWell" destination="csG-HG-9sH" id="1Q4-va-UL8"/>
+                                                                                    </connections>
                                                                                 </tableCellView>
                                                                             </prototypeCellViews>
                                                                         </tableColumn>
@@ -619,11 +622,11 @@
                                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                     <prototypeCellViews>
                                                                         <tableCellView identifier="meActionUnitCellID" id="1Gp-ez-Nuw">
-                                                                            <rect key="frame" x="244.5" y="1" width="187" height="17"/>
+                                                                            <rect key="frame" x="245" y="1" width="188" height="17"/>
                                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                             <subviews>
                                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iwe-tD-oau">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="17"/>
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="188" height="17"/>
                                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="dsA-JU-7cI">
                                                                                         <font key="font" metaFont="system"/>

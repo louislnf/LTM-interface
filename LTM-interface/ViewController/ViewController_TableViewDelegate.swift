@@ -75,8 +75,8 @@ extension ViewController: NSTableViewDelegate {
                         }
                     case "Color":
                         let ci = "meSetsColorCellID"
-                        if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? NSColorWell {
-                            cell.color = microExpressionsSet.color
+                        if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? ColorTableCellView {
+                            cell.colorWell.color = microExpressionsSet.color
                             return cell
                         }
                     default:
@@ -84,8 +84,46 @@ extension ViewController: NSTableViewDelegate {
                     }
                 }
             }
-        case TableViewTags.videos:
-            break
+        case TableViewTags.microExpressions:
+            // get selected micro expressions set
+            let sampleRow = samplesTableView.selectedRow
+            let meSetRow = microExpressionsSetsTableView.selectedRow
+            if meSetRow >= 0 && sampleRow >= 0 {
+                if let meSet = dataSet?.samples[sampleRow].microExpressionsSets[meSetRow], let tc = tableColumn {
+                    switch tc.title {
+                    case "Onset":
+                        let ci = "meOnsetCellID"
+                        if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? NSTableCellView {
+                            cell.textField?.stringValue = String(meSet.data[row].onset)
+                            return cell
+                        }
+                        break
+                    case "Offset":
+                        let ci = "meOffsetCellID"
+                        if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? NSTableCellView {
+                            cell.textField?.stringValue = String(meSet.data[row].offset)
+                            return cell
+                        }
+                        break
+                    case "Description":
+                        let ci = "meDescriptionCellID"
+                        if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? NSTableCellView {
+                            cell.textField?.stringValue = meSet.data[row].description
+                            return cell
+                        }
+                        break
+                    case "Action Unit":
+                        let ci = "meOnsetCellID"
+                        if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? NSTableCellView {
+                            cell.textField?.stringValue = String(meSet.data[row].actionUnit)
+                            return cell
+                        }
+                        break
+                    default:
+                        break
+                    }
+                }
+            }
         default:
             break
         }

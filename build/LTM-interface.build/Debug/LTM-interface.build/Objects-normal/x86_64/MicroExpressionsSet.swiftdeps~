@@ -22,7 +22,6 @@ depends-top-level:
 - !private "StringLiteralType"
 - "URL"
 - !private "UnicodeScalarType"
-- !private "print"
 depends-member:
 - !private ["Sa", "append"]
 - !private ["Sa", "count"]
@@ -143,7 +142,6 @@ depends-member:
 - ["13LTM_interface19MicroExpressionsSetC", "deinit"]
 - ["13LTM_interface19MicroExpressionsSetC", "init"]
 - ["13LTM_interface19MicroExpressionsSetC", "name"]
-- !private ["13LTM_interface19MicroExpressionsSetC", "print"]
 - ["13LTM_interface19MicroExpressionsSetC", "source"]
 - ["13LTM_interface19MicroExpressionsSetC", "url"]
 - !private ["s10MirrorPathP", "init"]
