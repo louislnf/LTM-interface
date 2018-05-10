@@ -12,16 +12,16 @@ import AVKit
 extension ViewController {
     
     func playSelectedVideo() {
-        // get selected Video
-        let sampleRow = samplesTableView.selectedRow
-        let videoRow = videosTableView.selectedRow
-        
-        if sampleRow >= 0 && videoRow >= 0 {
-            if let video = dataSet?.samples[sampleRow].videos[videoRow] {
-                player?.replaceCurrentItem(with: AVPlayerItem(url: video.url))
-                player?.play()
-                //player?.setRate(1.0, time: CMTime(), atHostTime: CMTime())
-            }
+        if let video = getSelectedVideo() {
+            player?.replaceCurrentItem(with: AVPlayerItem(url: video.url))
+            player?.play()
+        }
+    }
+    
+    func goToFrame(frame: Int) {
+        if let video = getSelectedVideo() {
+            let s = Double(frame)/video.framerate
+            player?.seek(to: CMTime(seconds: s, preferredTimescale: 60), toleranceBefore: kCMTimeZero, toleranceAfter: kCMTimeZero)
         }
     }
 }

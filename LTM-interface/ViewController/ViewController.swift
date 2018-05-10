@@ -54,6 +54,7 @@ class ViewController: NSViewController {
         
         self.player = AVPlayer()
         playerView.player = self.player
+        playerView.showsFrameSteppingButtons = true
         
     }
 

@@ -4,274 +4,244 @@ provides-nominal:
 provides-member:
 - ["13LTM_interface14ViewControllerC", ""]
 - ["13LTM_interface14ViewControllerC", "playSelectedVideo"]
+- ["13LTM_interface14ViewControllerC", "goToFrame"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "&&"
-- !private ">="
+- !private "/"
 - !private "AVPlayerItem"
+- !private "CMTime"
+- !private "Double"
+- "Int"
 - "ViewController"
+- !private "kCMTimeZero"
 depends-member:
 - !private ["So8AVPlayerC", "play"]
 - !private ["So8AVPlayerC", "replaceCurrentItem"]
+- !private ["So8AVPlayerC", "seek"]
 - !private ["So12AVPlayerItemC", "init"]
-- !private ["Sa", "subscript"]
-- !private ["s10ArraySliceV", "videos"]
-- !private ["s23BidirectionalCollectionP", "subscript"]
-- !private ["s23BidirectionalCollectionP", "videos"]
-- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["SC6CMTimeV", "init"]
 - !private ["s7CVarArgP", "AVPlayerItem"]
-- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
-- !private ["s7CVarArgP", "dataSet"]
+- !private ["s7CVarArgP", "CMTime"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "getSelectedVideo"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kCMTimeZero"]
 - !private ["s7CVarArgP", "play"]
 - !private ["s7CVarArgP", "player"]
 - !private ["s7CVarArgP", "replaceCurrentItem"]
-- !private ["s7CVarArgP", "samplesTableView"]
-- !private ["s7CVarArgP", "selectedRow"]
-- !private ["s7CVarArgP", "subscript"]
-- !private ["s7CVarArgP", "videosTableView"]
-- !private ["s10CollectionP", "subscript"]
-- !private ["s10CollectionP", "videos"]
+- !private ["s7CVarArgP", "seek"]
+- !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "AVPlayerItem"]
-- !private ["s28CustomDebugStringConvertibleP", "dataSet"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTime"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "getSelectedVideo"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kCMTimeZero"]
 - !private ["s28CustomDebugStringConvertibleP", "play"]
 - !private ["s28CustomDebugStringConvertibleP", "player"]
 - !private ["s28CustomDebugStringConvertibleP", "replaceCurrentItem"]
-- !private ["s28CustomDebugStringConvertibleP", "samplesTableView"]
-- !private ["s28CustomDebugStringConvertibleP", "selectedRow"]
-- !private ["s28CustomDebugStringConvertibleP", "subscript"]
-- !private ["s28CustomDebugStringConvertibleP", "videos"]
-- !private ["s28CustomDebugStringConvertibleP", "videosTableView"]
-- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
-- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
-- !private ["s17CustomReflectableP", "subscript"]
-- !private ["s17CustomReflectableP", "videos"]
+- !private ["s28CustomDebugStringConvertibleP", "seek"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "AVPlayerItem"]
-- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s23CustomStringConvertibleP", "dataSet"]
+- !private ["s23CustomStringConvertibleP", "CMTime"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "getSelectedVideo"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kCMTimeZero"]
 - !private ["s23CustomStringConvertibleP", "play"]
 - !private ["s23CustomStringConvertibleP", "player"]
 - !private ["s23CustomStringConvertibleP", "replaceCurrentItem"]
-- !private ["s23CustomStringConvertibleP", "samplesTableView"]
-- !private ["s23CustomStringConvertibleP", "selectedRow"]
-- !private ["s23CustomStringConvertibleP", "subscript"]
-- !private ["s23CustomStringConvertibleP", "videos"]
-- !private ["s23CustomStringConvertibleP", "videosTableView"]
-- !private ["13LTM_interface7DataSetC", "samples"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "subscript"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "seek"]
+- !private ["s9DecodableP", "init"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "AVPlayerItem"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "dataSet"]
+- !private ["s9EquatableP", "CMTime"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "getSelectedVideo"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "kCMTimeZero"]
 - !private ["s9EquatableP", "play"]
 - !private ["s9EquatableP", "player"]
 - !private ["s9EquatableP", "replaceCurrentItem"]
-- !private ["s9EquatableP", "samplesTableView"]
-- !private ["s9EquatableP", "selectedRow"]
-- !private ["s9EquatableP", "subscript"]
-- !private ["s9EquatableP", "videos"]
-- !private ["s9EquatableP", "videosTableView"]
-- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- !private ["s25ExpressibleByArrayLiteralP", "videos"]
-- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "seek"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
 - !private ["s8HashableP", "AVPlayerItem"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "dataSet"]
+- !private ["s8HashableP", "CMTime"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "getSelectedVideo"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "kCMTimeZero"]
 - !private ["s8HashableP", "play"]
 - !private ["s8HashableP", "player"]
 - !private ["s8HashableP", "replaceCurrentItem"]
-- !private ["s8HashableP", "samplesTableView"]
-- !private ["s8HashableP", "selectedRow"]
-- !private ["s8HashableP", "videosTableView"]
-- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s17MutableCollectionP", "subscript"]
-- !private ["s17MutableCollectionP", "videos"]
-- !private ["So15NSAccessibilityP", "selectedRow"]
-- !private ["So30NSAccessibilityElementProtocolP", "selectedRow"]
-- !private ["So20NSAccessibilityGroupP", "selectedRow"]
-- !private ["So20NSAccessibilityTableP", "selectedRow"]
-- !private ["So29NSAnimatablePropertyContainerP", "selectedRow"]
-- !private ["So25NSAppearanceCustomizationP", "selectedRow"]
+- !private ["s8HashableP", "seek"]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["So8NSCodingP", "AVPlayerItem"]
-- !private ["So8NSCodingP", "dataSet"]
+- !private ["So8NSCodingP", "CMTime"]
+- !private ["So8NSCodingP", "Double"]
+- !private ["So8NSCodingP", "getSelectedVideo"]
+- !private ["So8NSCodingP", "kCMTimeZero"]
 - !private ["So8NSCodingP", "player"]
-- !private ["So8NSCodingP", "samplesTableView"]
-- !private ["So8NSCodingP", "selectedRow"]
-- !private ["So8NSCodingP", "videosTableView"]
-- !private ["So9NSControlC", "selectedRow"]
 - !private ["So28NSControlTextEditingDelegateP", "AVPlayerItem"]
-- !private ["So28NSControlTextEditingDelegateP", "dataSet"]
+- !private ["So28NSControlTextEditingDelegateP", "CMTime"]
+- !private ["So28NSControlTextEditingDelegateP", "Double"]
+- !private ["So28NSControlTextEditingDelegateP", "getSelectedVideo"]
+- !private ["So28NSControlTextEditingDelegateP", "kCMTimeZero"]
 - !private ["So28NSControlTextEditingDelegateP", "player"]
-- !private ["So28NSControlTextEditingDelegateP", "samplesTableView"]
-- !private ["So28NSControlTextEditingDelegateP", "videosTableView"]
 - !private ["So9NSCopyingP", "init"]
-- !private ["So21NSDraggingDestinationP", "selectedRow"]
-- !private ["So16NSDraggingSourceP", "selectedRow"]
 - !private ["So26NSExtensionRequestHandlingP", "AVPlayerItem"]
-- !private ["So26NSExtensionRequestHandlingP", "dataSet"]
+- !private ["So26NSExtensionRequestHandlingP", "CMTime"]
+- !private ["So26NSExtensionRequestHandlingP", "Double"]
+- !private ["So26NSExtensionRequestHandlingP", "getSelectedVideo"]
+- !private ["So26NSExtensionRequestHandlingP", "kCMTimeZero"]
 - !private ["So26NSExtensionRequestHandlingP", "player"]
-- !private ["So26NSExtensionRequestHandlingP", "samplesTableView"]
-- !private ["So26NSExtensionRequestHandlingP", "videosTableView"]
 - !private ["So8NSObjectC", "AVPlayerItem"]
-- !private ["So8NSObjectC", "dataSet"]
+- !private ["So8NSObjectC", "CMTime"]
+- !private ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "getSelectedVideo"]
+- ["So8NSObjectC", "goToFrame"]
 - !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kCMTimeZero"]
 - !private ["So8NSObjectC", "play"]
 - ["So8NSObjectC", "playSelectedVideo"]
 - !private ["So8NSObjectC", "player"]
 - !private ["So8NSObjectC", "replaceCurrentItem"]
-- !private ["So8NSObjectC", "samplesTableView"]
-- !private ["So8NSObjectC", "selectedRow"]
-- !private ["So8NSObjectC", "videosTableView"]
+- !private ["So8NSObjectC", "seek"]
 - !private ["So16NSObjectProtocolP", "AVPlayerItem"]
-- !private ["So16NSObjectProtocolP", "dataSet"]
+- !private ["So16NSObjectProtocolP", "CMTime"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "getSelectedVideo"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "kCMTimeZero"]
 - !private ["So16NSObjectProtocolP", "play"]
 - !private ["So16NSObjectProtocolP", "player"]
 - !private ["So16NSObjectProtocolP", "replaceCurrentItem"]
-- !private ["So16NSObjectProtocolP", "samplesTableView"]
-- !private ["So16NSObjectProtocolP", "selectedRow"]
-- !private ["So16NSObjectProtocolP", "videosTableView"]
+- !private ["So16NSObjectProtocolP", "seek"]
 - !private ["So11NSResponderC", "AVPlayerItem"]
-- !private ["So11NSResponderC", "dataSet"]
+- !private ["So11NSResponderC", "CMTime"]
+- !private ["So11NSResponderC", "Double"]
+- ["So11NSResponderC", "Int"]
+- !private ["So11NSResponderC", "getSelectedVideo"]
+- ["So11NSResponderC", "goToFrame"]
+- !private ["So11NSResponderC", "kCMTimeZero"]
 - ["So11NSResponderC", "playSelectedVideo"]
 - !private ["So11NSResponderC", "player"]
-- !private ["So11NSResponderC", "samplesTableView"]
-- !private ["So11NSResponderC", "selectedRow"]
-- !private ["So11NSResponderC", "videosTableView"]
 - !private ["So17NSSeguePerformingP", "AVPlayerItem"]
-- !private ["So17NSSeguePerformingP", "dataSet"]
+- !private ["So17NSSeguePerformingP", "CMTime"]
+- !private ["So17NSSeguePerformingP", "Double"]
+- !private ["So17NSSeguePerformingP", "getSelectedVideo"]
+- !private ["So17NSSeguePerformingP", "kCMTimeZero"]
 - !private ["So17NSSeguePerformingP", "player"]
-- !private ["So17NSSeguePerformingP", "samplesTableView"]
-- !private ["So17NSSeguePerformingP", "videosTableView"]
-- !private ["So11NSTableViewC", "selectedRow"]
 - !private ["So21NSTableViewDataSourceP", "AVPlayerItem"]
-- !private ["So21NSTableViewDataSourceP", "dataSet"]
+- !private ["So21NSTableViewDataSourceP", "CMTime"]
+- !private ["So21NSTableViewDataSourceP", "Double"]
+- !private ["So21NSTableViewDataSourceP", "getSelectedVideo"]
+- !private ["So21NSTableViewDataSourceP", "kCMTimeZero"]
 - !private ["So21NSTableViewDataSourceP", "player"]
-- !private ["So21NSTableViewDataSourceP", "samplesTableView"]
-- !private ["So21NSTableViewDataSourceP", "videosTableView"]
 - !private ["So19NSTableViewDelegateP", "AVPlayerItem"]
-- !private ["So19NSTableViewDelegateP", "dataSet"]
+- !private ["So19NSTableViewDelegateP", "CMTime"]
+- !private ["So19NSTableViewDelegateP", "Double"]
+- !private ["So19NSTableViewDelegateP", "getSelectedVideo"]
+- !private ["So19NSTableViewDelegateP", "kCMTimeZero"]
 - !private ["So19NSTableViewDelegateP", "player"]
-- !private ["So19NSTableViewDelegateP", "samplesTableView"]
-- !private ["So19NSTableViewDelegateP", "videosTableView"]
-- !private ["So14NSTextDelegateP", "selectedRow"]
-- !private ["So18NSTextViewDelegateP", "selectedRow"]
 - !private ["So18NSTouchBarProviderP", "AVPlayerItem"]
-- !private ["So18NSTouchBarProviderP", "dataSet"]
+- !private ["So18NSTouchBarProviderP", "CMTime"]
+- !private ["So18NSTouchBarProviderP", "Double"]
+- !private ["So18NSTouchBarProviderP", "getSelectedVideo"]
+- !private ["So18NSTouchBarProviderP", "kCMTimeZero"]
 - !private ["So18NSTouchBarProviderP", "player"]
-- !private ["So18NSTouchBarProviderP", "samplesTableView"]
-- !private ["So18NSTouchBarProviderP", "selectedRow"]
-- !private ["So18NSTouchBarProviderP", "videosTableView"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "AVPlayerItem"]
-- !private ["So33NSUserInterfaceItemIdentificationP", "dataSet"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "CMTime"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "Double"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "getSelectedVideo"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "kCMTimeZero"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "player"]
-- !private ["So33NSUserInterfaceItemIdentificationP", "samplesTableView"]
-- !private ["So33NSUserInterfaceItemIdentificationP", "selectedRow"]
-- !private ["So33NSUserInterfaceItemIdentificationP", "videosTableView"]
-- !private ["So26NSUserInterfaceValidationsP", "selectedRow"]
-- !private ["So6NSViewC", "selectedRow"]
 - !private ["So16NSViewControllerC", "AVPlayerItem"]
-- !private ["So16NSViewControllerC", "dataSet"]
+- !private ["So16NSViewControllerC", "CMTime"]
+- !private ["So16NSViewControllerC", "Double"]
+- ["So16NSViewControllerC", "Int"]
+- !private ["So16NSViewControllerC", "getSelectedVideo"]
+- ["So16NSViewControllerC", "goToFrame"]
+- !private ["So16NSViewControllerC", "kCMTimeZero"]
 - ["So16NSViewControllerC", "playSelectedVideo"]
 - !private ["So16NSViewControllerC", "player"]
-- !private ["So16NSViewControllerC", "samplesTableView"]
-- !private ["So16NSViewControllerC", "videosTableView"]
-- !private ["s22RandomAccessCollectionP", "subscript"]
-- !private ["s22RandomAccessCollectionP", "videos"]
-- !private ["s26RangeReplaceableCollectionP", "subscript"]
-- !private ["s26RangeReplaceableCollectionP", "videos"]
-- !private ["13LTM_interface6SampleC", "videos"]
-- !private ["s8SequenceP", "subscript"]
-- !private ["s8SequenceP", "videos"]
+- !private ["s7NumericP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["13LTM_interface5VideoC", "framerate"]
 - !private ["13LTM_interface5VideoC", "url"]
 - !private ["13LTM_interface14ViewControllerC", "AVPlayerItem"]
-- !private ["13LTM_interface14ViewControllerC", "dataSet"]
+- !private ["13LTM_interface14ViewControllerC", "CMTime"]
+- !private ["13LTM_interface14ViewControllerC", "Double"]
+- ["13LTM_interface14ViewControllerC", "Int"]
+- !private ["13LTM_interface14ViewControllerC", "getSelectedVideo"]
+- ["13LTM_interface14ViewControllerC", "goToFrame"]
+- !private ["13LTM_interface14ViewControllerC", "kCMTimeZero"]
 - ["13LTM_interface14ViewControllerC", "playSelectedVideo"]
 - !private ["13LTM_interface14ViewControllerC", "player"]
-- !private ["13LTM_interface14ViewControllerC", "samplesTableView"]
-- !private ["13LTM_interface14ViewControllerC", "videosTableView"]
-- !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s14_ArrayProtocolP", "videos"]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedRow"]
-- !private ["s24_DestructorSafeContainerP", "subscript"]
-- !private ["s24_DestructorSafeContainerP", "videos"]
-- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayerItem"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSelectedVideo"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCMTimeZero"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "replaceCurrentItem"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "samplesTableView"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedRow"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "videosTableView"]
-- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
-- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seek"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
 - !private "So8AVPlayerC"
 - !private "So12AVPlayerItemC"
-- !private "Sa"
-- !private "s10ArraySliceV"
-- !private "s23BidirectionalCollectionP"
-- !private "Sb"
+- !private "s19BinaryFloatingPointP"
+- !private "SC6CMTimeV"
 - !private "s7CVarArgP"
-- !private "s10CollectionP"
+- !private "s10ComparableP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
-- !private "13LTM_interface7DataSetC"
 - !private "s9DecodableP"
+- !private "Sd"
 - !private "s9EncodableP"
 - !private "s9EquatableP"
-- !private "s25ExpressibleByArrayLiteralP"
-- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s13FloatingPointP"
 - !private "s8HashableP"
 - !private "s25LosslessStringConvertibleP"
-- !private "s17MutableCollectionP"
-- !private "So15NSAccessibilityP"
-- !private "So30NSAccessibilityElementProtocolP"
-- !private "So20NSAccessibilityGroupP"
-- !private "So20NSAccessibilityTableP"
-- !private "So29NSAnimatablePropertyContainerP"
-- !private "So25NSAppearanceCustomizationP"
 - !private "So8NSCodingP"
-- !private "So9NSControlC"
 - !private "So28NSControlTextEditingDelegateP"
 - !private "So9NSCopyingP"
-- !private "So21NSDraggingDestinationP"
-- !private "So16NSDraggingSourceP"
 - !private "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - !private "So16NSObjectProtocolP"
 - "So11NSResponderC"
 - !private "So17NSSeguePerformingP"
-- !private "So11NSTableViewC"
 - !private "So21NSTableViewDataSourceP"
 - !private "So19NSTableViewDelegateP"
-- !private "So14NSTextDelegateP"
-- !private "So18NSTextViewDelegateP"
 - !private "So18NSTouchBarProviderP"
 - !private "So33NSUserInterfaceItemIdentificationP"
-- !private "So26NSUserInterfaceValidationsP"
-- !private "So6NSViewC"
 - "So16NSViewControllerC"
-- !private "s22RandomAccessCollectionP"
-- !private "s26RangeReplaceableCollectionP"
-- !private "13LTM_interface6SampleC"
-- !private "s8SequenceP"
+- !private "s7NumericP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
 - !private "13LTM_interface5VideoC"
 - "13LTM_interface14ViewControllerC"
-- !private "s14_ArrayProtocolP"
-- !private "s37_DefaultCustomPlaygroundQuickLookableP"
-- !private "s24_DestructorSafeContainerP"
-- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
@@ -309,4 +279,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "7a9a862aedba5ba4bb535746a290f70c"
+interface-hash: "c30b8dd8c8b2eb80a085fd6553c281a8"

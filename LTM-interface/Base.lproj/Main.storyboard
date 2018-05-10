@@ -36,13 +36,21 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="File" id="bib-Uj-vzu">
                                     <items>
-                                        <menuItem title="Open…" keyEquivalent="o" id="IAo-SY-fd9">
+                                        <menuItem title="Open DataSet" keyEquivalent="o" id="IAo-SY-fd9">
                                             <connections>
                                                 <action selector="openDataSet:" target="Ady-hI-5gd" id="88c-gb-3Cc"/>
                                             </connections>
                                         </menuItem>
+                                        <menuItem title="Launch Task" keyEquivalent="t" id="e7C-4B-Ip8">
+                                            <connections>
+                                                <action selector="launchTask:" target="Ady-hI-5gd" id="N5L-3c-Bme"/>
+                                            </connections>
+                                        </menuItem>
                                     </items>
                                 </menu>
+                                <connections>
+                                    <action selector="launchTask:" target="Ady-hI-5gd" id="Te2-ec-UHt"/>
+                                </connections>
                             </menuItem>
                         </items>
                     </menu>
@@ -82,17 +90,17 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="LTM_interface" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="794" height="574"/>
+                        <rect key="frame" x="0.0" y="0.0" width="794" height="614"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="41L-eP-bfm">
-                                <rect key="frame" x="0.0" y="0.0" width="794" height="574"/>
+                                <rect key="frame" x="0.0" y="0.0" width="794" height="614"/>
                                 <subviews>
                                     <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LMZ-qf-OTd">
-                                        <rect key="frame" x="0.0" y="0.0" width="120" height="574"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="614"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Hjk-uP-vaH">
-                                                <rect key="frame" x="2" y="557" width="120" height="17"/>
+                                                <rect key="frame" x="2" y="597" width="120" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Samples" id="gFh-Fl-FwF">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -100,13 +108,13 @@
                                                 </textFieldCell>
                                             </textField>
                                             <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d66-xg-r5A">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="557"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="597"/>
                                                 <clipView key="contentView" id="SbB-t2-e1a">
-                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="557"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="597"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="7xg-E6-EZW" viewBased="YES" id="0ia-mh-nCp">
-                                                            <rect key="frame" x="0.0" y="0.0" width="120" height="534"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="120" height="574"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <size key="intercellSpacing" width="3" height="2"/>
                                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -184,13 +192,13 @@
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="fillEqually" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rjg-mJ-xeK">
-                                        <rect key="frame" x="120" y="0.0" width="240" height="574"/>
+                                        <rect key="frame" x="120" y="0.0" width="240" height="614"/>
                                         <subviews>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nbN-6h-TNm">
-                                                <rect key="frame" x="0.0" y="287" width="240" height="287"/>
+                                                <rect key="frame" x="0.0" y="307" width="240" height="307"/>
                                                 <subviews>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qun-k5-wPd">
-                                                        <rect key="frame" x="2" y="270" width="240" height="17"/>
+                                                        <rect key="frame" x="2" y="290" width="240" height="17"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Videos" id="fcf-xa-mrr">
                                                             <font key="font" metaFont="system"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -198,13 +206,13 @@
                                                         </textFieldCell>
                                                     </textField>
                                                     <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53J-oO-uIc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="270"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="290"/>
                                                         <clipView key="contentView" id="2hQ-FA-hA7">
-                                                            <rect key="frame" x="0.0" y="0.0" width="240" height="270"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="240" height="290"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="SCJ-jH-9mS" viewBased="YES" id="mq0-gQ-55m">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="247"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="267"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <size key="intercellSpacing" width="3" height="2"/>
                                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -314,10 +322,10 @@
                                                 </customSpacing>
                                             </stackView>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ynQ-dp-MN1">
-                                                <rect key="frame" x="0.0" y="0.0" width="240" height="287"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="307"/>
                                                 <subviews>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Dg-2B-g55">
-                                                        <rect key="frame" x="2" y="270" width="240" height="17"/>
+                                                        <rect key="frame" x="2" y="290" width="240" height="17"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Micro Expressions Sets" id="07u-bx-aVD">
                                                             <font key="font" metaFont="system"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -325,13 +333,13 @@
                                                         </textFieldCell>
                                                     </textField>
                                                     <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OvM-Ov-XYt">
-                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="270"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="290"/>
                                                         <clipView key="contentView" id="yc5-gK-6uX">
-                                                            <rect key="frame" x="0.0" y="0.0" width="240" height="270"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="240" height="290"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="T1U-SJ-fej" viewBased="YES" id="Tg3-B7-QKZ">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="247"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="267"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <size key="intercellSpacing" width="3" height="2"/>
                                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -491,19 +499,19 @@
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0od-zU-XwA">
-                                        <rect key="frame" x="360" y="0.0" width="434" height="574"/>
+                                        <rect key="frame" x="360" y="0.0" width="434" height="614"/>
                                         <subviews>
                                             <avPlayerView controlsStyle="inline" translatesAutoresizingMaskIntoConstraints="NO" id="4Zs-fc-dzX">
-                                                <rect key="frame" x="0.0" y="240" width="434" height="334"/>
+                                                <rect key="frame" x="0.0" y="180" width="434" height="434"/>
                                             </avPlayerView>
                                             <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whg-ke-gHN">
-                                                <rect key="frame" x="0.0" y="0.0" width="434" height="240"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="434" height="180"/>
                                                 <clipView key="contentView" id="e6h-uL-8oO">
-                                                    <rect key="frame" x="0.0" y="0.0" width="434" height="240"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="434" height="180"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="gji-Ca-xmE" viewBased="YES" id="Icx-TS-qVr">
-                                                            <rect key="frame" x="0.0" y="0.0" width="434" height="217"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="434" height="157"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <size key="intercellSpacing" width="3" height="2"/>
                                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -646,7 +654,7 @@
                                                     </subviews>
                                                 </clipView>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="240" id="g9O-ak-0TM"/>
+                                                    <constraint firstAttribute="height" constant="180" id="thR-rO-paF"/>
                                                 </constraints>
                                                 <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="yY9-co-xZe">
                                                     <rect key="frame" x="1" y="118" width="392" height="16"/>
@@ -663,7 +671,6 @@
                                             </scrollView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="whg-ke-gHN" secondAttribute="bottom" id="8hY-jh-alI"/>
                                             <constraint firstAttribute="trailing" secondItem="4Zs-fc-dzX" secondAttribute="trailing" id="CsX-L3-OGo"/>
                                             <constraint firstItem="whg-ke-gHN" firstAttribute="top" secondItem="4Zs-fc-dzX" secondAttribute="bottom" id="F4F-WO-n8t"/>
                                             <constraint firstAttribute="trailing" secondItem="whg-ke-gHN" secondAttribute="trailing" id="IZe-H2-g59"/>

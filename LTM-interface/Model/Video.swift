@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import AVKit
 
 class Video {
     
@@ -18,8 +19,9 @@ class Video {
         }
     }
     
-    var framerate: Float {
-        return 0.0
+    var framerate: Double {
+        let asset = AVAsset(url: url)
+        return Double(asset.tracks.first?.nominalFrameRate ?? 0.0)
     }
     
     init(withUrl url: URL) {

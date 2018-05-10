@@ -222,6 +222,9 @@ SWIFT_CLASS("_TtC13LTM_interface14ViewController")
 @end
 
 
+@interface ViewController (SWIFT_EXTENSION(LTM_interface))
+- (IBAction)launchTask:(id _Nonnull)sender;
+@end
 
 
 @interface ViewController (SWIFT_EXTENSION(LTM_interface)) <NSTableViewDataSource>
@@ -236,12 +239,16 @@ SWIFT_CLASS("_TtC13LTM_interface14ViewController")
 @end
 
 
+
+
 @interface ViewController (SWIFT_EXTENSION(LTM_interface))
 - (void)samplesAction:(id _Nonnull)sender;
 - (void)videosAction:(id _Nonnull)sender;
 - (void)microExpressionsSetsAction:(id _Nonnull)sender;
 - (void)microExpressionsDoubleAction:(id _Nonnull)sender;
 @end
+
+
 
 @class NSWindow;
 

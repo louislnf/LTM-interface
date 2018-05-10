@@ -22,17 +22,13 @@ extension ViewController {
     }
     
     @objc func microExpressionsSetsAction(_ sender: AnyObject) {
-        /*debug*/
-        let sampleRow = samplesTableView.selectedRow
-        let meSetRow = microExpressionsSetsTableView.selectedRow
-        print(dataSet?.samples[sampleRow].microExpressionsSets[meSetRow].data ?? 0)
-        /*end debug*/
-        
         microExpressionsTableView.reloadData()
     }
     
     @objc func microExpressionsDoubleAction(_ sender: AnyObject) {
-        
+        if let me = getSelectedMicroExpression() {
+            goToFrame(frame: me.onset)
+        }
     }
     
 }

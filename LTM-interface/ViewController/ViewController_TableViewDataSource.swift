@@ -36,7 +36,11 @@ extension ViewController: NSTableViewDataSource {
             let sampleRow = samplesTableView.selectedRow
             let meSetRow = samplesTableView.selectedRow
             if sampleRow >= 0 && meSetRow >= 0 {
-                return dataSet?.samples[sampleRow].microExpressionsSets[meSetRow].data.count ?? 0
+                if let sample = dataSet?.samples[sampleRow] {
+                    if meSetRow < sample.microExpressionsSets.count {
+                        return sample.microExpressionsSets[meSetRow].data.count
+                    }
+                }
             }
         default:
             break
