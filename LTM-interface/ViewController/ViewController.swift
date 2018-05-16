@@ -48,6 +48,7 @@ class ViewController: NSViewController {
         microExpressionsTableView.delegate = self
         microExpressionsTableView.dataSource = self
         microExpressionsTableView.target = self
+        microExpressionsTableView.action = #selector(microExpressionsAction(_:))
         microExpressionsTableView.doubleAction = #selector(microExpressionsDoubleAction(_:))
         
         /* setting up the player */
@@ -74,6 +75,23 @@ class ViewController: NSViewController {
         microExpressionsTableView.reloadData()
         microExpressionsSetsTableView.reloadData()
     }
+    
+    @IBAction func openDataSet(_ sender: Any) {
+        let panel = NSOpenPanel()
+        panel.allowsMultipleSelection = false
+        panel.canChooseDirectories = true
+        panel.canChooseFiles = false
+        
+        if panel.runModal() == NSApplication.ModalResponse.OK {
+            if let url = panel.urls.first {
+                representedObject = url
+            }
+        }
+    }
+    
+    var lastSelectedMeRow = -1
+    var isEditingMeRow = false
+    var editedMeRow = -1
 
 
 }

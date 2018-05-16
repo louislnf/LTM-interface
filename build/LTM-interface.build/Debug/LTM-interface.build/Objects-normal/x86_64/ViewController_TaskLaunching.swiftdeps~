@@ -2,10 +2,178 @@
 provides-top-level:
 provides-nominal:
 provides-member:
+- ["13LTM_interface14ViewControllerC", ""]
+- ["13LTM_interface14ViewControllerC", "launchTask"]
 provides-dynamic-lookup:
+- "launchTask"
 depends-top-level:
+- "AssignmentPrecedence"
+- !private "NSLog"
+- !private "Process"
+- !private "StringLiteralType"
+- "ViewController"
 depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "NSLog"]
+- !private ["s7CVarArgP", "Process"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "launchPath"]
+- !private ["s7CVarArgP", "run"]
+- !private ["s7CVarArgP", "terminationHandler"]
+- !private ["s7CVarArgP", "terminationStatus"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "Process"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "launchPath"]
+- !private ["s28CustomDebugStringConvertibleP", "run"]
+- !private ["s28CustomDebugStringConvertibleP", "terminationHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "terminationStatus"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- !private ["s23CustomStringConvertibleP", "Process"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "launchPath"]
+- !private ["s23CustomStringConvertibleP", "run"]
+- !private ["s23CustomStringConvertibleP", "terminationHandler"]
+- !private ["s23CustomStringConvertibleP", "terminationStatus"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "NSLog"]
+- !private ["s9EquatableP", "Process"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "launchPath"]
+- !private ["s9EquatableP", "run"]
+- !private ["s9EquatableP", "terminationHandler"]
+- !private ["s9EquatableP", "terminationStatus"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "NSLog"]
+- !private ["s8HashableP", "Process"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "launchPath"]
+- !private ["s8HashableP", "run"]
+- !private ["s8HashableP", "terminationHandler"]
+- !private ["s8HashableP", "terminationStatus"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "NSLog"]
+- !private ["So8NSCodingP", "Process"]
+- !private ["So28NSControlTextEditingDelegateP", "NSLog"]
+- !private ["So28NSControlTextEditingDelegateP", "Process"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLog"]
+- !private ["So26NSExtensionRequestHandlingP", "Process"]
+- !private ["So8NSObjectC", "NSLog"]
+- !private ["So8NSObjectC", "Process"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "launchPath"]
+- ["So8NSObjectC", "launchTask"]
+- !private ["So8NSObjectC", "run"]
+- !private ["So8NSObjectC", "terminationHandler"]
+- !private ["So8NSObjectC", "terminationStatus"]
+- !private ["So16NSObjectProtocolP", "NSLog"]
+- !private ["So16NSObjectProtocolP", "Process"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "launchPath"]
+- !private ["So16NSObjectProtocolP", "run"]
+- !private ["So16NSObjectProtocolP", "terminationHandler"]
+- !private ["So16NSObjectProtocolP", "terminationStatus"]
+- !private ["So11NSResponderC", "NSLog"]
+- !private ["So11NSResponderC", "Process"]
+- ["So11NSResponderC", "launchTask"]
+- !private ["So17NSSeguePerformingP", "NSLog"]
+- !private ["So17NSSeguePerformingP", "Process"]
+- !private ["So21NSTableViewDataSourceP", "NSLog"]
+- !private ["So21NSTableViewDataSourceP", "Process"]
+- !private ["So19NSTableViewDelegateP", "NSLog"]
+- !private ["So19NSTableViewDelegateP", "Process"]
+- !private ["So14NSTextDelegateP", "NSLog"]
+- !private ["So14NSTextDelegateP", "Process"]
+- !private ["So18NSTouchBarProviderP", "NSLog"]
+- !private ["So18NSTouchBarProviderP", "Process"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "NSLog"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "Process"]
+- !private ["So16NSViewControllerC", "NSLog"]
+- !private ["So16NSViewControllerC", "Process"]
+- ["So16NSViewControllerC", "launchTask"]
+- !private ["So7ProcessC", "init"]
+- !private ["So7ProcessC", "launchPath"]
+- !private ["So7ProcessC", "run"]
+- !private ["So7ProcessC", "terminationHandler"]
+- !private ["So7ProcessC", "terminationStatus"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["13LTM_interface14ViewControllerC", "NSLog"]
+- !private ["13LTM_interface14ViewControllerC", "Process"]
+- ["13LTM_interface14ViewControllerC", "launchTask"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Process"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "launchPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "run"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "terminationHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "terminationStatus"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So28NSControlTextEditingDelegateP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "So11NSResponderC"
+- !private "So17NSSeguePerformingP"
+- !private "So21NSTableViewDataSourceP"
+- !private "So19NSTableViewDelegateP"
+- !private "So14NSTextDelegateP"
+- !private "So18NSTouchBarProviderP"
+- !private "So33NSUserInterfaceItemIdentificationP"
+- "So16NSViewControllerC"
+- !private "So7ProcessC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "13LTM_interface14ViewControllerC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
@@ -41,4 +209,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "8a8f7408621c7d636fc4b384b30646ce"

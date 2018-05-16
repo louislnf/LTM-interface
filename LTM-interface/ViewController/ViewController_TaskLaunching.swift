@@ -11,7 +11,16 @@ import Foundation
 extension ViewController {
     
     @IBAction func launchTask(_ sender: Any) {
-        print("Task launched...")
+        let process = Process()
+        process.launchPath = "/bin/pwd"
+        process.terminationHandler = { (p: Process) in
+            NSLog("process terminated: \(process.terminationStatus)")
+        }
+        do {
+            try process.run()
+        } catch {
+            NSLog("failed to run process.")
+        }
     }
     
 }

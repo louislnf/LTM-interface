@@ -24,4 +24,28 @@ extension ViewController {
             player?.seek(to: CMTime(seconds: s, preferredTimescale: 60), toleranceBefore: kCMTimeZero, toleranceAfter: kCMTimeZero)
         }
     }
+    
+    /* menu action handlers */
+    
+    @IBAction func menuTogglePlay(_ sender: Any) {
+        if let p = player {
+            if p.rate != 0.0 {
+                p.pause()
+            } else {
+                p.play()
+            }
+        }
+    }
+    
+    @IBAction func menuRestart(_ sender: Any) {
+        playSelectedVideo()
+    }
+    
+    @IBAction func menuSetRate(_ sender: Any) {
+        if let menuItem = sender as? NSMenuItem {
+            let newRate = Float(menuItem.title)
+            player?.rate = newRate!
+        }
+    }
+    
 }

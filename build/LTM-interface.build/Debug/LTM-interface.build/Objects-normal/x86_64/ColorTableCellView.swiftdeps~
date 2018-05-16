@@ -6,76 +6,60 @@ provides-nominal:
 provides-member:
 - ["13LTM_interface18ColorTableCellViewC", ""]
 provides-dynamic-lookup:
-- "draw"
+- "colorWell"
 depends-top-level:
 - "ColorTableCellView"
-- "NSRect"
+- "NSColorWell"
 - "NSTableCellView"
 depends-member:
 - ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "draw"]
 - !private ["s7CVarArgP", "init"]
-- ["13LTM_interface18ColorTableCellViewC", "NSRect"]
+- ["13LTM_interface18ColorTableCellViewC", "NSColorWell"]
+- ["13LTM_interface18ColorTableCellViewC", "colorWell"]
 - ["13LTM_interface18ColorTableCellViewC", "deinit"]
-- ["13LTM_interface18ColorTableCellViewC", "draw"]
 - ["13LTM_interface18ColorTableCellViewC", "init"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "draw"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "draw"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - ["s9EquatableP", ""]
-- !private ["s9EquatableP", "draw"]
 - !private ["s9EquatableP", "init"]
 - ["s8HashableP", ""]
-- !private ["s8HashableP", "draw"]
 - !private ["s8HashableP", "init"]
 - ["So15NSAccessibilityP", ""]
-- !private ["So15NSAccessibilityP", "draw"]
 - !private ["So15NSAccessibilityP", "init"]
 - ["So30NSAccessibilityElementProtocolP", ""]
-- !private ["So30NSAccessibilityElementProtocolP", "draw"]
 - !private ["So30NSAccessibilityElementProtocolP", "init"]
 - ["So29NSAnimatablePropertyContainerP", ""]
-- !private ["So29NSAnimatablePropertyContainerP", "draw"]
 - !private ["So29NSAnimatablePropertyContainerP", "init"]
 - ["So25NSAppearanceCustomizationP", ""]
-- !private ["So25NSAppearanceCustomizationP", "draw"]
 - !private ["So25NSAppearanceCustomizationP", "init"]
 - ["So8NSCodingP", ""]
-- !private ["So8NSCodingP", "draw"]
 - !private ["So8NSCodingP", "init"]
 - ["So21NSDraggingDestinationP", ""]
-- !private ["So21NSDraggingDestinationP", "draw"]
 - !private ["So21NSDraggingDestinationP", "init"]
-- ["So8NSObjectC", "NSRect"]
-- ["So8NSObjectC", "draw"]
+- ["So8NSObjectC", "NSColorWell"]
+- ["So8NSObjectC", "colorWell"]
 - ["So8NSObjectC", "init"]
 - ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "draw"]
 - !private ["So16NSObjectProtocolP", "init"]
-- ["So11NSResponderC", "NSRect"]
-- ["So11NSResponderC", "draw"]
+- ["So11NSResponderC", "NSColorWell"]
+- ["So11NSResponderC", "colorWell"]
 - ["So11NSResponderC", "init"]
-- ["So15NSTableCellViewC", "NSRect"]
+- ["So15NSTableCellViewC", "NSColorWell"]
 - ["So15NSTableCellViewC", ""]
-- ["So15NSTableCellViewC", "draw"]
+- ["So15NSTableCellViewC", "colorWell"]
 - ["So15NSTableCellViewC", "init"]
 - ["So18NSTouchBarProviderP", ""]
-- !private ["So18NSTouchBarProviderP", "draw"]
 - !private ["So18NSTouchBarProviderP", "init"]
 - ["So33NSUserInterfaceItemIdentificationP", ""]
-- !private ["So33NSUserInterfaceItemIdentificationP", "draw"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "init"]
-- ["So6NSViewC", "NSRect"]
-- ["So6NSViewC", "draw"]
+- ["So6NSViewC", "NSColorWell"]
+- ["So6NSViewC", "colorWell"]
 - ["So6NSViewC", "init"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "draw"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 depends-nominal:
 - "s7CVarArgP"
@@ -134,4 +118,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "47cef9c899f1e3f427c7a72eb3bfd144"
+interface-hash: "152950b36cd774fc10873d761a3c3876"

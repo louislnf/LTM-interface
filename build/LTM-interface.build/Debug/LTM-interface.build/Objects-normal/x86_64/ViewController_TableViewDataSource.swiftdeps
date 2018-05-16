@@ -191,7 +191,13 @@ depends-member:
 - ["So19NSTableViewDelegateP", "numberOfRowsInTableView"]
 - !private ["So19NSTableViewDelegateP", "samplesTableView"]
 - ["So19NSTableViewDelegateP", "tableView"]
+- !private ["So14NSTextDelegateP", "TableViewTags"]
+- !private ["So14NSTextDelegateP", "dataSet"]
+- ["So14NSTextDelegateP", "numberOfRows"]
+- ["So14NSTextDelegateP", "numberOfRowsInTableView"]
+- !private ["So14NSTextDelegateP", "samplesTableView"]
 - !private ["So14NSTextDelegateP", "selectedRow"]
+- ["So14NSTextDelegateP", "tableView"]
 - !private ["So14NSTextDelegateP", "tag"]
 - !private ["So18NSTextViewDelegateP", "selectedRow"]
 - !private ["So18NSTextViewDelegateP", "tag"]
@@ -307,7 +313,7 @@ depends-nominal:
 - !private "So11NSTableViewC"
 - "So21NSTableViewDataSourceP"
 - "So19NSTableViewDelegateP"
-- !private "So14NSTextDelegateP"
+- "So14NSTextDelegateP"
 - !private "So18NSTextViewDelegateP"
 - "So18NSTouchBarProviderP"
 - "So33NSUserInterfaceItemIdentificationP"

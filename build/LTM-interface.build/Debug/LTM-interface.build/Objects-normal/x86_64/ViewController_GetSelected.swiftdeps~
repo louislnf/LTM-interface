@@ -2,10 +2,323 @@
 provides-top-level:
 provides-nominal:
 provides-member:
+- ["13LTM_interface14ViewControllerC", ""]
+- ["13LTM_interface14ViewControllerC", "getSelectedSample"]
+- ["13LTM_interface14ViewControllerC", "getSelectedVideo"]
+- ["13LTM_interface14ViewControllerC", "getSelectedMicroExpressionsSet"]
+- ["13LTM_interface14ViewControllerC", "getSelectedMicroExpression"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "&&"
+- !private "<"
+- !private ">="
+- "MicroExpression"
+- "MicroExpressionsSet"
+- "Sample"
+- "Video"
+- "ViewController"
 depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataSet"]
+- !private ["s7CVarArgP", "getSelectedMicroExpressionsSet"]
+- !private ["s7CVarArgP", "getSelectedSample"]
+- !private ["s7CVarArgP", "microExpressionsSetsTableView"]
+- !private ["s7CVarArgP", "microExpressionsTableView"]
+- !private ["s7CVarArgP", "samplesTableView"]
+- !private ["s7CVarArgP", "selectedRow"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "videosTableView"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSet"]
+- !private ["s28CustomDebugStringConvertibleP", "getSelectedMicroExpressionsSet"]
+- !private ["s28CustomDebugStringConvertibleP", "getSelectedSample"]
+- !private ["s28CustomDebugStringConvertibleP", "microExpressionsSetsTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "microExpressionsTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "samplesTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedRow"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "videosTableView"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataSet"]
+- !private ["s23CustomStringConvertibleP", "getSelectedMicroExpressionsSet"]
+- !private ["s23CustomStringConvertibleP", "getSelectedSample"]
+- !private ["s23CustomStringConvertibleP", "microExpressionsSetsTableView"]
+- !private ["s23CustomStringConvertibleP", "microExpressionsTableView"]
+- !private ["s23CustomStringConvertibleP", "samplesTableView"]
+- !private ["s23CustomStringConvertibleP", "selectedRow"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "videosTableView"]
+- !private ["13LTM_interface7DataSetC", "samples"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "dataSet"]
+- !private ["s9EquatableP", "getSelectedMicroExpressionsSet"]
+- !private ["s9EquatableP", "getSelectedSample"]
+- !private ["s9EquatableP", "microExpressionsSetsTableView"]
+- !private ["s9EquatableP", "microExpressionsTableView"]
+- !private ["s9EquatableP", "samplesTableView"]
+- !private ["s9EquatableP", "selectedRow"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "videosTableView"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "dataSet"]
+- !private ["s8HashableP", "getSelectedMicroExpressionsSet"]
+- !private ["s8HashableP", "getSelectedSample"]
+- !private ["s8HashableP", "microExpressionsSetsTableView"]
+- !private ["s8HashableP", "microExpressionsTableView"]
+- !private ["s8HashableP", "samplesTableView"]
+- !private ["s8HashableP", "selectedRow"]
+- !private ["s8HashableP", "videosTableView"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["13LTM_interface19MicroExpressionsSetC", "data"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So15NSAccessibilityP", "selectedRow"]
+- !private ["So30NSAccessibilityElementProtocolP", "selectedRow"]
+- !private ["So20NSAccessibilityGroupP", "selectedRow"]
+- !private ["So20NSAccessibilityTableP", "selectedRow"]
+- !private ["So29NSAnimatablePropertyContainerP", "selectedRow"]
+- !private ["So25NSAppearanceCustomizationP", "selectedRow"]
+- !private ["So8NSCodingP", "dataSet"]
+- !private ["So8NSCodingP", "getSelectedMicroExpressionsSet"]
+- !private ["So8NSCodingP", "getSelectedSample"]
+- !private ["So8NSCodingP", "microExpressionsSetsTableView"]
+- !private ["So8NSCodingP", "microExpressionsTableView"]
+- !private ["So8NSCodingP", "samplesTableView"]
+- !private ["So8NSCodingP", "selectedRow"]
+- !private ["So8NSCodingP", "videosTableView"]
+- !private ["So9NSControlC", "selectedRow"]
+- !private ["So28NSControlTextEditingDelegateP", "dataSet"]
+- !private ["So28NSControlTextEditingDelegateP", "getSelectedMicroExpressionsSet"]
+- !private ["So28NSControlTextEditingDelegateP", "getSelectedSample"]
+- !private ["So28NSControlTextEditingDelegateP", "microExpressionsSetsTableView"]
+- !private ["So28NSControlTextEditingDelegateP", "microExpressionsTableView"]
+- !private ["So28NSControlTextEditingDelegateP", "samplesTableView"]
+- !private ["So28NSControlTextEditingDelegateP", "videosTableView"]
+- !private ["So21NSDraggingDestinationP", "selectedRow"]
+- !private ["So16NSDraggingSourceP", "selectedRow"]
+- !private ["So26NSExtensionRequestHandlingP", "dataSet"]
+- !private ["So26NSExtensionRequestHandlingP", "getSelectedMicroExpressionsSet"]
+- !private ["So26NSExtensionRequestHandlingP", "getSelectedSample"]
+- !private ["So26NSExtensionRequestHandlingP", "microExpressionsSetsTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "microExpressionsTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "samplesTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "videosTableView"]
+- ["So8NSObjectC", "MicroExpression"]
+- ["So8NSObjectC", "MicroExpressionsSet"]
+- ["So8NSObjectC", "Sample"]
+- ["So8NSObjectC", "Video"]
+- !private ["So8NSObjectC", "dataSet"]
+- ["So8NSObjectC", "getSelectedMicroExpression"]
+- ["So8NSObjectC", "getSelectedMicroExpressionsSet"]
+- ["So8NSObjectC", "getSelectedSample"]
+- ["So8NSObjectC", "getSelectedVideo"]
+- !private ["So8NSObjectC", "microExpressionsSetsTableView"]
+- !private ["So8NSObjectC", "microExpressionsTableView"]
+- !private ["So8NSObjectC", "samplesTableView"]
+- !private ["So8NSObjectC", "selectedRow"]
+- !private ["So8NSObjectC", "videosTableView"]
+- !private ["So16NSObjectProtocolP", "dataSet"]
+- !private ["So16NSObjectProtocolP", "getSelectedMicroExpressionsSet"]
+- !private ["So16NSObjectProtocolP", "getSelectedSample"]
+- !private ["So16NSObjectProtocolP", "microExpressionsSetsTableView"]
+- !private ["So16NSObjectProtocolP", "microExpressionsTableView"]
+- !private ["So16NSObjectProtocolP", "samplesTableView"]
+- !private ["So16NSObjectProtocolP", "selectedRow"]
+- !private ["So16NSObjectProtocolP", "videosTableView"]
+- ["So11NSResponderC", "MicroExpression"]
+- ["So11NSResponderC", "MicroExpressionsSet"]
+- ["So11NSResponderC", "Sample"]
+- ["So11NSResponderC", "Video"]
+- !private ["So11NSResponderC", "dataSet"]
+- ["So11NSResponderC", "getSelectedMicroExpression"]
+- ["So11NSResponderC", "getSelectedMicroExpressionsSet"]
+- ["So11NSResponderC", "getSelectedSample"]
+- ["So11NSResponderC", "getSelectedVideo"]
+- !private ["So11NSResponderC", "microExpressionsSetsTableView"]
+- !private ["So11NSResponderC", "microExpressionsTableView"]
+- !private ["So11NSResponderC", "samplesTableView"]
+- !private ["So11NSResponderC", "selectedRow"]
+- !private ["So11NSResponderC", "videosTableView"]
+- !private ["So17NSSeguePerformingP", "dataSet"]
+- !private ["So17NSSeguePerformingP", "getSelectedMicroExpressionsSet"]
+- !private ["So17NSSeguePerformingP", "getSelectedSample"]
+- !private ["So17NSSeguePerformingP", "microExpressionsSetsTableView"]
+- !private ["So17NSSeguePerformingP", "microExpressionsTableView"]
+- !private ["So17NSSeguePerformingP", "samplesTableView"]
+- !private ["So17NSSeguePerformingP", "videosTableView"]
+- !private ["So11NSTableViewC", "selectedRow"]
+- !private ["So21NSTableViewDataSourceP", "dataSet"]
+- !private ["So21NSTableViewDataSourceP", "getSelectedMicroExpressionsSet"]
+- !private ["So21NSTableViewDataSourceP", "getSelectedSample"]
+- !private ["So21NSTableViewDataSourceP", "microExpressionsSetsTableView"]
+- !private ["So21NSTableViewDataSourceP", "microExpressionsTableView"]
+- !private ["So21NSTableViewDataSourceP", "samplesTableView"]
+- !private ["So21NSTableViewDataSourceP", "videosTableView"]
+- !private ["So19NSTableViewDelegateP", "dataSet"]
+- !private ["So19NSTableViewDelegateP", "getSelectedMicroExpressionsSet"]
+- !private ["So19NSTableViewDelegateP", "getSelectedSample"]
+- !private ["So19NSTableViewDelegateP", "microExpressionsSetsTableView"]
+- !private ["So19NSTableViewDelegateP", "microExpressionsTableView"]
+- !private ["So19NSTableViewDelegateP", "samplesTableView"]
+- !private ["So19NSTableViewDelegateP", "videosTableView"]
+- !private ["So14NSTextDelegateP", "dataSet"]
+- !private ["So14NSTextDelegateP", "getSelectedMicroExpressionsSet"]
+- !private ["So14NSTextDelegateP", "getSelectedSample"]
+- !private ["So14NSTextDelegateP", "microExpressionsSetsTableView"]
+- !private ["So14NSTextDelegateP", "microExpressionsTableView"]
+- !private ["So14NSTextDelegateP", "samplesTableView"]
+- !private ["So14NSTextDelegateP", "selectedRow"]
+- !private ["So14NSTextDelegateP", "videosTableView"]
+- !private ["So18NSTextViewDelegateP", "selectedRow"]
+- !private ["So18NSTouchBarProviderP", "dataSet"]
+- !private ["So18NSTouchBarProviderP", "getSelectedMicroExpressionsSet"]
+- !private ["So18NSTouchBarProviderP", "getSelectedSample"]
+- !private ["So18NSTouchBarProviderP", "microExpressionsSetsTableView"]
+- !private ["So18NSTouchBarProviderP", "microExpressionsTableView"]
+- !private ["So18NSTouchBarProviderP", "samplesTableView"]
+- !private ["So18NSTouchBarProviderP", "selectedRow"]
+- !private ["So18NSTouchBarProviderP", "videosTableView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "dataSet"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "getSelectedMicroExpressionsSet"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "getSelectedSample"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "microExpressionsSetsTableView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "microExpressionsTableView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "samplesTableView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "selectedRow"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "videosTableView"]
+- !private ["So26NSUserInterfaceValidationsP", "selectedRow"]
+- !private ["So6NSViewC", "selectedRow"]
+- ["So16NSViewControllerC", "MicroExpression"]
+- ["So16NSViewControllerC", "MicroExpressionsSet"]
+- ["So16NSViewControllerC", "Sample"]
+- ["So16NSViewControllerC", "Video"]
+- !private ["So16NSViewControllerC", "dataSet"]
+- ["So16NSViewControllerC", "getSelectedMicroExpression"]
+- ["So16NSViewControllerC", "getSelectedMicroExpressionsSet"]
+- ["So16NSViewControllerC", "getSelectedSample"]
+- ["So16NSViewControllerC", "getSelectedVideo"]
+- !private ["So16NSViewControllerC", "microExpressionsSetsTableView"]
+- !private ["So16NSViewControllerC", "microExpressionsTableView"]
+- !private ["So16NSViewControllerC", "samplesTableView"]
+- !private ["So16NSViewControllerC", "videosTableView"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["13LTM_interface6SampleC", "microExpressionsSets"]
+- !private ["13LTM_interface6SampleC", "videos"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "subscript"]
+- ["13LTM_interface14ViewControllerC", "MicroExpression"]
+- ["13LTM_interface14ViewControllerC", "MicroExpressionsSet"]
+- ["13LTM_interface14ViewControllerC", "Sample"]
+- ["13LTM_interface14ViewControllerC", "Video"]
+- !private ["13LTM_interface14ViewControllerC", "dataSet"]
+- ["13LTM_interface14ViewControllerC", "getSelectedMicroExpression"]
+- ["13LTM_interface14ViewControllerC", "getSelectedMicroExpressionsSet"]
+- ["13LTM_interface14ViewControllerC", "getSelectedSample"]
+- ["13LTM_interface14ViewControllerC", "getSelectedVideo"]
+- !private ["13LTM_interface14ViewControllerC", "microExpressionsSetsTableView"]
+- !private ["13LTM_interface14ViewControllerC", "microExpressionsTableView"]
+- !private ["13LTM_interface14ViewControllerC", "samplesTableView"]
+- !private ["13LTM_interface14ViewControllerC", "videosTableView"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedRow"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSelectedMicroExpressionsSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSelectedSample"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "microExpressionsSetsTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "microExpressionsTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "samplesTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "videosTableView"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "13LTM_interface7DataSetC"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "13LTM_interface19MicroExpressionsSetC"
+- !private "s17MutableCollectionP"
+- !private "So15NSAccessibilityP"
+- !private "So30NSAccessibilityElementProtocolP"
+- !private "So20NSAccessibilityGroupP"
+- !private "So20NSAccessibilityTableP"
+- !private "So29NSAnimatablePropertyContainerP"
+- !private "So25NSAppearanceCustomizationP"
+- !private "So8NSCodingP"
+- !private "So9NSControlC"
+- !private "So28NSControlTextEditingDelegateP"
+- !private "So21NSDraggingDestinationP"
+- !private "So16NSDraggingSourceP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "So11NSResponderC"
+- !private "So17NSSeguePerformingP"
+- !private "So11NSTableViewC"
+- !private "So21NSTableViewDataSourceP"
+- !private "So19NSTableViewDelegateP"
+- !private "So14NSTextDelegateP"
+- !private "So18NSTextViewDelegateP"
+- !private "So18NSTouchBarProviderP"
+- !private "So33NSUserInterfaceItemIdentificationP"
+- !private "So26NSUserInterfaceValidationsP"
+- !private "So6NSViewC"
+- "So16NSViewControllerC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "13LTM_interface6SampleC"
+- !private "s8SequenceP"
+- "13LTM_interface14ViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
@@ -41,4 +354,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "81fb4ea55936da1b9a1f6225622aa74a"

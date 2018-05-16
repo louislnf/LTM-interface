@@ -217,6 +217,7 @@ SWIFT_CLASS("_TtC13LTM_interface14ViewController")
 @property (nonatomic, weak) IBOutlet AVPlayerView * _Null_unspecified playerView;
 - (void)viewDidLoad;
 @property (nonatomic) id _Nullable representedObject;
+- (IBAction)openDataSet:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSNibName _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -224,6 +225,11 @@ SWIFT_CLASS("_TtC13LTM_interface14ViewController")
 
 @interface ViewController (SWIFT_EXTENSION(LTM_interface))
 - (IBAction)launchTask:(id _Nonnull)sender;
+@end
+
+
+@interface ViewController (SWIFT_EXTENSION(LTM_interface)) <NSTextDelegate>
+- (void)textDidEndEditing:(NSNotification * _Nonnull)notification;
 @end
 
 
@@ -242,21 +248,20 @@ SWIFT_CLASS("_TtC13LTM_interface14ViewController")
 
 
 @interface ViewController (SWIFT_EXTENSION(LTM_interface))
-- (void)samplesAction:(id _Nonnull)sender;
-- (void)videosAction:(id _Nonnull)sender;
-- (void)microExpressionsSetsAction:(id _Nonnull)sender;
-- (void)microExpressionsDoubleAction:(id _Nonnull)sender;
+- (IBAction)menuTogglePlay:(id _Nonnull)sender;
+- (IBAction)menuRestart:(id _Nonnull)sender;
+- (IBAction)menuSetRate:(id _Nonnull)sender;
 @end
 
 
-
-@class NSWindow;
-
-SWIFT_CLASS("_TtC13LTM_interface16WindowController")
-@interface WindowController : NSWindowController
-- (IBAction)openDataSet:(id _Nonnull)sender;
-- (nonnull instancetype)initWithWindow:(NSWindow * _Nullable)window OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@interface ViewController (SWIFT_EXTENSION(LTM_interface))
+- (void)samplesAction:(id _Nonnull)sender;
+- (void)videosAction:(id _Nonnull)sender;
+- (void)microExpressionsSetsAction:(id _Nonnull)sender;
+- (void)microExpressionsAction:(id _Nonnull)sender;
+- (void)microExpressionsDoubleAction:(id _Nonnull)sender;
+- (IBAction)meRemove:(id _Nonnull)sender;
+- (IBAction)meAdd:(id _Nonnull)sender;
 @end
 
 #if __has_attribute(external_source_symbol)

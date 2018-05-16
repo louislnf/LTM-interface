@@ -10,7 +10,7 @@ depends-top-level:
 - !private "??"
 - !private "AVAsset"
 - "AssignmentPrecedence"
-- "Float"
+- "Double"
 - "String"
 - "URL"
 - "Video"
@@ -23,26 +23,33 @@ depends-member:
 - !private ["So29AVAsynchronousKeyValueLoadingP", "tracks"]
 - !private ["Sa", "first"]
 - !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s19BinaryFloatingPointP", "init"]
 - !private ["s7CVarArgP", "first"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "nominalFrameRate"]
 - !private ["s7CVarArgP", "tracks"]
 - !private ["s10CollectionP", "first"]
+- !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "first"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
 - !private ["s28CustomDebugStringConvertibleP", "nominalFrameRate"]
 - !private ["s28CustomDebugStringConvertibleP", "tracks"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
 - !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "first"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "lastPathComponent"]
 - !private ["s23CustomStringConvertibleP", "nominalFrameRate"]
 - !private ["s23CustomStringConvertibleP", "tracks"]
 - !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "lastPathComponent"]
+- !private ["Sd", "init"]
 - !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "lastPathComponent"]
 - !private ["s9EquatableP", "first"]
 - !private ["s9EquatableP", "init"]
@@ -50,10 +57,14 @@ depends-member:
 - !private ["s9EquatableP", "nominalFrameRate"]
 - !private ["s9EquatableP", "tracks"]
 - !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "lastPathComponent"]
 - !private ["s8HashableP", "nominalFrameRate"]
 - !private ["s8HashableP", "tracks"]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s17MutableCollectionP", "first"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "nominalFrameRate"]
@@ -64,13 +75,16 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "nominalFrameRate"]
 - !private ["So16NSObjectProtocolP", "tracks"]
+- !private ["s7NumericP", "init"]
 - !private ["s22RandomAccessCollectionP", "first"]
 - !private ["s26RangeReplaceableCollectionP", "first"]
 - !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
 - !private ["s8SequenceP", "first"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
 - !private ["10Foundation3URLV", "lastPathComponent"]
 - !private ["13LTM_interface5VideoC", "AVAsset"]
-- ["13LTM_interface5VideoC", "Float"]
+- ["13LTM_interface5VideoC", "Double"]
 - ["13LTM_interface5VideoC", "String"]
 - ["13LTM_interface5VideoC", "URL"]
 - ["13LTM_interface5VideoC", "deinit"]
@@ -79,12 +93,17 @@ depends-member:
 - ["13LTM_interface5VideoC", "name"]
 - ["13LTM_interface5VideoC", "url"]
 - !private ["s14_ArrayProtocolP", "first"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "lastPathComponent"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "nominalFrameRate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tracks"]
 - !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "lastPathComponent"]
 depends-nominal:
 - !private "So7AVAssetC"
@@ -92,29 +111,43 @@ depends-nominal:
 - !private "So29AVAsynchronousKeyValueLoadingP"
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
 - !private "s7CVarArgP"
 - !private "s10CollectionP"
+- !private "s10ComparableP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
 - !private "s9DecodableP"
+- !private "Sd"
 - !private "s9EncodableP"
 - !private "s9EquatableP"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s13FloatingPointP"
 - !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
 - !private "s17MutableCollectionP"
 - !private "So9NSCopyingP"
 - !private "So8NSObjectC"
 - !private "So16NSObjectProtocolP"
+- !private "s7NumericP"
 - !private "s22RandomAccessCollectionP"
 - !private "s26RangeReplaceableCollectionP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
 - !private "10Foundation3URLV"
 - "13LTM_interface5VideoC"
 - !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
@@ -153,4 +186,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "de5c7cff2acb7a05b433d97a27625158"
+interface-hash: "727020e03b93a094bd61f855b2eb0645"

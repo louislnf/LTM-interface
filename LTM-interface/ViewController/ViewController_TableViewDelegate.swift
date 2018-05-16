@@ -82,6 +82,9 @@ extension ViewController: NSTableViewDelegate {
                     let ci = "meOnsetCellID"
                     if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? NSTableCellView {
                         cell.textField?.stringValue = String(meSet.data[row].onset)
+                        if isEditingMeRow && editedMeRow == row {
+                            cell.textField?.isEditable = true
+                        }
                         return cell
                     }
                     break
@@ -89,6 +92,9 @@ extension ViewController: NSTableViewDelegate {
                     let ci = "meOffsetCellID"
                     if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? NSTableCellView {
                         cell.textField?.stringValue = String(meSet.data[row].offset)
+                        if isEditingMeRow && editedMeRow == row {
+                            cell.textField?.isEditable = true
+                        }
                         return cell
                     }
                     break
@@ -96,6 +102,9 @@ extension ViewController: NSTableViewDelegate {
                     let ci = "meDescriptionCellID"
                     if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? NSTableCellView {
                         cell.textField?.stringValue = meSet.data[row].description
+                        if isEditingMeRow && editedMeRow == row {
+                            cell.textField?.isEditable = true
+                        }
                         return cell
                     }
                     break
@@ -103,6 +112,9 @@ extension ViewController: NSTableViewDelegate {
                     let ci = "meOnsetCellID"
                     if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(ci), owner: nil) as? NSTableCellView {
                         cell.textField?.stringValue = String(meSet.data[row].actionUnit)
+                        if isEditingMeRow && editedMeRow == row {
+                            cell.textField?.isEditable = true
+                        }
                         return cell
                     }
                     break
