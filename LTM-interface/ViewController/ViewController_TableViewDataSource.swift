@@ -17,30 +17,18 @@ extension ViewController: NSTableViewDataSource {
             return dataSet?.samples.count ?? 0
         case TableViewTags.videos:
             // get selected sample
-            let row = samplesTableView.selectedRow
-            if row >= 0 {
-                if let sample = dataSet?.samples[row] {
-                    return sample.videos.count
-                }
+            if let sample = getSelectedSample() {
+                return sample.microExpressionsSets.count
             }
         case TableViewTags.microExpressionsSets:
             // get selected sample
-            let row = samplesTableView.selectedRow
-            if row >= 0 {
-                if let sample = dataSet?.samples[row] {
-                    return sample.microExpressionsSets.count
-                }
+            if let sample = getSelectedSample() {
+                return sample.microExpressionsSets.count
             }
         case TableViewTags.microExpressions:
             // get selected sample and ME-Set
-            let sampleRow = samplesTableView.selectedRow
-            let meSetRow = samplesTableView.selectedRow
-            if sampleRow >= 0 && meSetRow >= 0 {
-                if let sample = dataSet?.samples[sampleRow] {
-                    if meSetRow < sample.microExpressionsSets.count {
-                        return sample.microExpressionsSets[meSetRow].data.count
-                    }
-                }
+            if let meSet = getSelectedMicroExpressionsSet() {
+                return meSet.data.count
             }
         default:
             break

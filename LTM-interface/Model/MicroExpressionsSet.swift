@@ -67,6 +67,8 @@ class MicroExpressionsSet {
                         self.data.append(me)
                     }
                 }
+                print("source: \(source)")
+                print("data: \(data)")
             }
         } catch {
             NSLog("MicroExpression: init from file failed (url = \(url)")
@@ -92,7 +94,6 @@ class MicroExpressionsSet {
             stringToWrite += "\(me.onset);\(me.offset);\(me.description);\(me.actionUnit)\n"
         }
         if fm.fileExists(atPath: url.path) {
-            print("Is writable ?: \(fm.isWritableFile(atPath: url.path))")
             do {
                 try stringToWrite.write(to: url, atomically: false, encoding: String.Encoding.utf8)
                 NSLog("Successfully saved me set to url: \(url)")
